@@ -1,0 +1,2190 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script src="/lex/js/calendario.js"></script>
+
+</head><body topmargin="0" leftmargin="0"><html:html>
+  
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+    <title>
+      Sistema para el Consultorio Juridico
+    </title>
+    <link href="http://tapproyecto.eafit.edu.co/imagenes/v1/styles/estiloEafit2005.css" type="text/css" rel="stylesheet" />
+  
+  
+     
+
+    
+      
+    
+
+    
+
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="http://tapproyecto.eafit.edu.co/imagenes/v1/apps/lex//fondo.gif" bgcolor="#336699">
+
+  <tbody><tr>
+
+    <td width="182"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/apps/lex/logoEafit.gif" border="0" /></td>
+
+    <td align="center"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/apps/lex/titulo.gif" border="0" /></td>
+
+    <td width="186">
+
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+        <tbody><tr>
+
+          <td align="right"><a href="http://www.eafit.edu.co" target="_blank"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/apps/lex/homeEafit.gif" border="0" /></a></td>
+
+        </tr>
+
+        <tr>
+
+          <td align="right"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/apps/lex/imagenTop.gif" border="0" /></td>
+
+        </tr>
+
+      </tbody></table></td>
+
+  </tr>
+
+</tbody></table>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+
+<script type="text/javascript">
+_uacct = "UA-834467-2";
+urchinTracker();
+</script>
+
+
+    
+
+
+
+
+
+
+
+<table class="noprint" align="center" cellpadding="0" cellspacing="0" border="0" width="90%">
+  <tbody><tr valing="top" align="center" width="90%">
+    <td>
+      
+        <a href="/lex/administracion/index.do">
+          <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_sup/btn_administracion.gif" border="0" alt="AdministraciÃ³n" />
+        </a>
+      
+      
+      
+        <a href="/lex/estudiantes/index.do">
+          <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_sup/btn_estudiantes.gif" border="0" alt="Estudiantes" />
+        </a>
+      
+      
+       
+        <a href="/lex/consultas/index.do">
+          <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_sup/btn_consultas.gif" border="0" alt="Consultas" />
+        </a>
+        
+
+       
+        <a href="/lex/procesos/index.do">
+          <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_sup/btn_procesos.gif" border="0" alt="Procesos" />
+        </a>
+      
+                
+       
+      <a href="/lex/agenda/index.do">
+        <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_sup/btn_agendas.gif" border="0" alt="Agenda" /> 
+      </a> 
+        
+  
+        
+
+            
+       
+        <a href="/lex/recados/index.do">
+          <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_sup/btn_recados.gif" border="0" alt="Recados" />
+        </a>
+      
+     
+      <a href="/lex/contactenos.do">
+        <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_sup/btn_contactenos.gif" border="0" alt="Contactenos" />
+     </a>
+     <!--
+      <a href='/lex/fotos/ingresoFotoIndex.do'>
+        <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_sup/btn_contactenos.gif" border="0" alt="FOTOS"/>
+      </a>     
+     -->
+      <a href="/lex/ayuda/arh_ayuda.htm" target="_blank">
+        <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_sup/btn_ayuda.gif" border="0" alt="Ayuda" />
+      </a>
+      <a href="/lex/salir.do">
+        <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_sup/btn_salir.gif" border="0" alt="Salir" />
+      </a>
+    </td>
+  </tr>
+</tbody></table>
+<br />
+<div class="noPrint" align="right">
+    <a href="javascript:window.print();">
+     <b>Imprimir</b>
+     <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_print.gif" border="0" alt="Imprimir" />
+    </a>
+</div>
+   <table border="0" width="100%">
+      <tbody><tr valign="top">
+        <td width="180" class="noPrint">
+          
+
+
+
+
+
+
+<table width="170" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="5"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_izq/topL.gif" width="5" height="5" /></td>
+    <td class="bkgdT"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_izq/spacer.gif" width="1" height="5" /></td>
+    <td width="5"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_izq/topR.gif" width="5" height="5" /></td>
+  </tr>
+  <tr>
+    <td width="5" class="bkgdL"> </td>
+    <td>
+      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFCC00" class="textoMenu">
+
+      
+      
+        
+          <tbody><tr>
+            <td class="celda">
+              <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_izq/bullet.gif" width="9" height="11" />
+            </td>
+            <td class="celda">
+              <p class="textoMenu">
+                <a href="cargarPaginaIngresoProcesos.do">Ingreso Procesos</a> 
+              </p>
+            </td>
+          </tr>
+        
+
+        
+          <tr>
+            <td class="celda">
+              <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_izq/bullet.gif" width="9" height="11" />
+            </td>
+            <td class="celda">
+              <p class="textoMenu">
+                <a href="cargarPaginaConsultaProcesos.do">Consultar Procesos</a> 
+              </p>
+            </td>
+          </tr>
+
+        
+  
+        
+          <tr>
+            <td class="celda">
+              <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_izq/bullet.gif" width="9" height="11" />
+            </td>
+            <td class="celda">
+              <p class="textoMenu">
+                <a href="cargarPaginaFiltrosProcesos.do">Buscar Procesos</a> 
+              </p>
+            </td>
+          </tr>
+
+        
+          
+        
+          <tr>
+            <td class="celda">
+              <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_izq/bullet.gif" width="9" height="11" />
+            </td>
+            <td class="celda">
+              <p class="textoMenu">
+                <a href="cargarPaginaReasignacionProcesos.do">Repartir Procesos</a> 
+              </p>
+            </td>
+          </tr>
+
+        
+           
+        
+         
+        
+          <tr>
+            <td class="celda">
+              <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_izq/bullet.gif" width="9" height="11" />
+            </td>
+            <td class="celda">
+              <p class="textoMenu">
+                <a href="cargarPaginaConsultaProcesos.do">Consultar Procesos</a> 
+              </p>
+            </td>
+          </tr>
+        
+ 
+        
+        
+         
+      </tbody></table>
+    </td>
+    <td width="5" class="bkgdR"> </td>
+  </tr>
+  <tr>
+    <td width="5"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_izq/downL.gif" width="5" height="5" /></td>
+    <td class="bkgdD"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_izq/spacer.gif" width="1" height="5" /></td>
+    <td width="5"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/menu_izq/downR.gif" width="5" height="5" /></td>
+  </tr>
+</tbody></table>
+
+        </td>
+        <td>
+          
+
+
+
+
+
+
+
+
+<script language="javaScript" src="../js/spjavascript.js"></script>
+<script language="javaScript" src="../js/spjAjax.js"></script>
+<script language="javascript" src="../js/calendario.js"></script>
+<script language="javaScript" src="http://tapproyecto.eafit.edu.co/imagenes/v1/js/selectbox.js"></script>
+
+<form name="ProcesosForm" method="post" action="/lex/procesos/cargarPaginaIngresoProcesos.do">
+<script language="javascript">
+
+var tdNombre = "";
+var strAccion = "";
+
+var strTipoDcto = "";
+var strNroDcto = "";
+var strNombre = "";
+var strDivNombre = "";
+
+var contenidoNuevo="";
+
+function preCarga(){
+	MM_preloadImages('http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_error.gif','http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_mensaje.gif','http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_advertencia.gif');
+	
+	ajaxerror = 'Un error ha ocurrido. Por favor intente de nuevo más tarde.';
+        icoError = 'http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_error.gif';
+        
+            if(document.ProcesosForm.elements['proceso.codArea']!="0")
+            {
+                seleccionAreaCompetencia(true);
+            
+            } 
+            contenidoNuevo= document.getElementById('nuevaPersona').innerHTML ;
+            
+        }
+
+
+//document.body.onload = preCarga;
+        window.onload=preCarga;
+    
+        function volver()
+        {
+            document.ProcesosForm.action = "/lex/procesos/regresar.do";
+            document.ProcesosForm.submit();
+        }        
+        
+        function actualizarProceso()
+        {
+            document.ProcesosForm.action = "/lex/procesos/actualizarProceso.do";
+            document.ProcesosForm.submit();
+        }
+
+  function buscarDefiende(){
+        strTipoId = document.ProcesosForm.elements['proceso.usurioResiste.tipoDcto'].value;
+        numeroId = document.ProcesosForm.elements['proceso.usurioResiste.nroDcto'].value;
+  
+        
+        ocultarError();
+        strAccion = "buscarDefiende";
+        icoError = 'http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_error.gif';
+        document.ProcesosForm.elements['proceso.usurioResiste.tipoDcto'].disabled = true;
+        document.ProcesosForm.elements['proceso.usurioResiste.nroDcto'].disabled = true;           
+        openPage("/lex/procesos/buscarPersona.do", strTipoId,numeroId);
+}
+
+
+  function buscarAsesor(){
+        codArea = document.ProcesosForm.elements['proceso.codArea'].value;
+        codigoEstudianteSemestre = document.ProcesosForm.elements['proceso.codigoEstudianteSemestre'].value;
+  
+        
+        ocultarError();
+        strAccion = "buscarAsesor";
+        icoError = 'http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_error.gif';
+        document.ProcesosForm.elements['proceso.codArea'].disabled = true;
+        document.ProcesosForm.elements['proceso.codigoEstudianteSemestre'].disabled = true;           
+        openPage("/lex/procesos/consultarAsesorEstudiante.do", codArea,codigoEstudianteSemestre);
+}
+
+
+  function buscarEstudiantesArea()
+  {
+        eliminarHijosElementoDOM('nombreAsesor');
+        strSemestre = ProcesosForm.elements['proceso.semestre'].value;
+        //proceso.codArea = document.ProcesosForm.elements['proceso.codArea'].value;
+        ocultarError();
+        strAccion = "buscarEstudiantesArea";
+        icoError = 'http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_error.gif';
+
+        //document.ProcesosForm.elements['proceso.codArea'].disabled = true;
+        //openPage("/lex/procesos/consultarEstudiantesXArea.do", proceso.codArea);
+        
+        quitarOpcionesSelect('estudiantesArea');
+        
+        document.ProcesosForm.elements['proceso.semestre'].disabled = true;
+         
+        document.ProcesosForm.elements['proceso.codigoEstudianteSemestre'].disabled = true;
+         
+
+        openPage("/lex/estudiantes/listarEstudiantes.do", strSemestre);
+        
+        
+}
+    function ingresarPersona()
+    {
+        nombre = document.ProcesosForm.elements['datosClienteForm.nombre'].value;
+        apellido = document.ProcesosForm.elements['datosClienteForm.apellido'].value;
+        numeroDocumento = document.ProcesosForm.elements['datosClienteForm.numeroDocumento'].value;
+        tipoDocumento = document.ProcesosForm.elements['datosClienteForm.tipoDocumento'].value;
+        codigoSexo = document.ProcesosForm.elements['datosClienteForm.codigoSexo'].value;
+        email = document.ProcesosForm.elements['datosClienteForm.email'].value;
+        fax = document.ProcesosForm.elements['datosClienteForm.fax'].value;
+        telefonoMovil = document.ProcesosForm.elements['datosClienteForm.telefonoMovil'].value;
+        telefonoResidencia = document.ProcesosForm.elements['datosClienteForm.telefonoResidencia'].value;
+        direccionResidencia = document.ProcesosForm.elements['datosClienteForm.direccionResidencia'].value;
+        codigoPaisResidencia = document.ProcesosForm.elements['datosClienteForm.codigoPaisResidencia'].value;
+        codigoDepartamentoResidencia = document.ProcesosForm.elements['datosClienteForm.codigoDepartamentoResidencia'].value;
+        codigoCiudadResidencia = document.ProcesosForm.elements['datosClienteForm.codigoCiudadResidencia'].value;
+        
+
+        
+        ocultarError();
+        strAccion = "ingresarPersona";
+        icoError = 'http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_error.gif';
+
+        document.getElementById('divGuardar').style.display = "";
+        document.getElementById('divContinuar').style.display = "none";
+          
+        openPage("/lex/procesos/ingresarNuevoClienteContactoAjax.do",
+        tipoDocumento,numeroDocumento ,nombre,apellido, telefonoResidencia,email,direccionResidencia,codigoPaisResidencia,
+        codigoDepartamentoResidencia,codigoCiudadResidencia,fax,telefonoMovil,codigoSexo
+        );
+            
+
+    }
+
+
+    function llegaRespuesta()
+    {
+        document.ProcesosForm.elements['proceso.usurioEjerce.tipoDcto'].disabled = false;
+        document.ProcesosForm.elements['proceso.usurioEjerce.nroDcto'].disabled=false;
+        document.ProcesosForm.elements['proceso.usurioResiste.tipoDcto'].disabled = false;
+        document.ProcesosForm.elements['proceso.usurioResiste.nroDcto'].disabled=false;
+        document.ProcesosForm.elements['proceso.apoderado.tipoDcto'].disabled = false;
+        document.ProcesosForm.elements['proceso.apoderado.nroDcto'].disabled = false;           
+
+
+          if(strAccion == "buscarDefiende")
+          {
+            nombre = _getParametro(resultado, 1);
+
+            if(nombre!=""&amp;&amp;nombre!="null"&amp;&amp;nombre!="_")
+            {
+                var newText =document.createTextNode(nombre);
+                eliminarHijosElementoDOM('nombreSindicado');
+                document.getElementById('nombreSindicado').appendChild(newText);
+                
+                document.ProcesosForm.elements['proceso.usurioResiste.tipoDcto'].disabled = false;
+                document.ProcesosForm.elements['proceso.usurioResiste.nroDcto'].disabled=false;
+                document.ProcesosForm.elements['proceso.usurioResiste.nombre'].value =nombre;
+            }else
+            {
+                mostrarError("'Usuario ingresado no se encuentra registrado'", "http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_mensaje.gif", "msgMensaje");
+                document.getElementById('nombreSindicado').appendChild("");
+            }
+          }
+          
+          if(strAccion == "buscarEjerce")
+          {
+
+            nombre = _getParametro(resultado, 1);
+
+            if(nombre!=""&amp;&amp;nombre!="null"&amp;&amp;nombre!="_")
+            {          
+                var newText =document.createTextNode(nombre);
+                eliminarHijosElementoDOM('nombreDemandante');
+                document.getElementById('nombreDemandante').appendChild(newText);
+                
+                document.ProcesosForm.elements['proceso.usurioEjerce.tipoDcto'].disabled = false;
+                document.ProcesosForm.elements['proceso.usurioEjerce.nroDcto'].disabled=false;
+                document.ProcesosForm.elements['proceso.usurioEjerce.nombre'].value =nombre;
+          }else
+            {
+                mostrarError("'Usuario ingresado no se encuentra registrado'", "http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_mensaje.gif", "msgMensaje");
+                document.getElementById('nombreDemandante').appendChild("");
+            }                  
+          
+        }
+        else
+          if(strAccion == "buscarApoderado")
+          {
+
+            nombre = _getParametro(resultado, 1);
+
+            if(nombre!=""&amp;&amp;nombre!="null"&amp;&amp;nombre!="_")
+            {          
+                var newText =document.createTextNode(nombre);
+                eliminarHijosElementoDOM('nombreApoderado');
+                document.getElementById('nombreApoderado').appendChild(newText);
+                
+                
+                
+                document.ProcesosForm.elements['proceso.apoderado.tipoDcto'].disabled = false;
+                document.ProcesosForm.elements['proceso.apoderado.nroDcto'].disabled=false;
+                document.ProcesosForm.elements['proceso.apoderado.nombre'].value =nombre;
+          }else
+            {
+                mostrarError("'Usuario ingresado no se encuentra registrado'", "http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_mensaje.gif", "msgMensaje");
+                document.getElementById('nombreApoderado').appendChild("");
+            }                  
+          
+        }  else    
+        
+        
+                  
+          if(strAccion == "buscarAsesor")
+          {
+
+            nombre = _getParametro(resultado, 1);
+            
+            if(nombre!=""&amp;&amp;nombre!="null"&amp;&amp;nombre!="_")
+            {          
+                eliminarHijosElementoDOM('nombreAsesor');
+                var newText =document.createTextNode(nombre);
+                document.getElementById('nombreAsesor').appendChild(newText);
+
+                document.ProcesosForm.elements['proceso.codArea'].disabled = false;
+                document.ProcesosForm.elements['proceso.codigoEstudianteSemestre'].disabled = false;   
+                document.ProcesosForm.elements['proceso.nombreAsesor'].value =nombre;
+          }else
+            {
+                mostrarError("'No se encontró Asesor para el estudiante'", "http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_mensaje.gif", "msgMensaje");
+            }                  
+          
+        }else
+
+        if(strAccion == "buscarEstudiantesArea")
+        {
+            document.ProcesosForm.elements['proceso.semestre'].disabled = false;
+            document.ProcesosForm.elements['proceso.codigoEstudianteSemestre'].disabled = false;
+            ponerDesdeElement('estudiantesArea', resultado);
+            ocultarError();           
+           
+        }   else
+        
+        
+        if(strAccion == "listarAsuntos")
+        {
+            
+            document.ProcesosForm.elements['proceso.codArea'].disabled = false;
+            document.ProcesosForm.elements['proceso.codAsunto'].disabled = false; 
+             
+            document.ProcesosForm.elements['proceso.codigoEstudianteSemestre'].disabled = false;
+            
+
+            ponerDesdeElement('asuntos', resultado);
+            //ocultarError();            
+        }   else
+
+	if(strAccion == "listarDepartamentos"){
+            document.getElementById('paises').disabled = false;
+            document.getElementById('deptos').disabled = false;           
+            ponerDesdeElement('deptos', resultado);
+            ocultarError();            
+	}
+
+        if(strAccion == "listarCiudades"){
+            document.getElementById('deptos').disabled = false;           
+            document.getElementById('ciudad').disabled = false;
+            ponerDesdeElement('ciudad', resultado);
+            ocultarError();            
+	}
+         
+        if(strAccion == "ingresarPersona"){
+
+            
+             mostrarError("Se han ingresado los datos con éxito.", "http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_mensaje.gif", "msgMensaje");
+                         
+             
+             var valor =_getParametro(resultado, 1);
+             
+             if(valor!="_")
+             {
+                document.ProcesosForm.elements['datosClienteForm.numeroDocumento'].value=valor;
+             }
+             
+             
+             
+            tipoDcto=document.ProcesosForm.elements['datosClienteForm.tipoDocumento'].value;
+            nDcto= document.ProcesosForm.elements['datosClienteForm.numeroDocumento'].value;
+            nombre=document.ProcesosForm.elements['datosClienteForm.nombre'].value;
+            apellido=document.ProcesosForm.elements['datosClienteForm.apellido'].value;
+            
+            document.ProcesosForm.elements[strTipoDcto].value=tipoDcto;
+            document.ProcesosForm.elements[strNroDcto].value=nDcto;
+            document.ProcesosForm.elements[strNombre].value=nombre.toUpperCase()+' '+apellido.toUpperCase();
+             
+             
+            
+                 
+             
+            document.getElementById('divGuardar').style.display =  "none";
+            document.getElementById('divContinuar').style.display ="";
+            
+            eliminarHijosElementoDOM(strDivNombre);
+            var newText =document.createTextNode(document.ProcesosForm.elements[strNombre].value);
+            document.getElementById(strDivNombre).appendChild(newText); 
+             
+	}         
+        
+    }
+    
+    function onError()
+    {
+        document.ProcesosForm.elements['proceso.usurioEjerce.tipoDcto'].disabled = false;
+        document.ProcesosForm.elements['proceso.usurioEjerce.nroDcto'].disabled=false;
+        document.ProcesosForm.elements['proceso.usurioResiste.tipoDcto'].disabled = false;
+        document.ProcesosForm.elements['proceso.usurioResiste.nroDcto'].disabled=false;
+    }
+
+  function buscarEjerce()
+  {
+        strTipoId = document.ProcesosForm.elements['proceso.usurioEjerce.tipoDcto'].value;
+        numeroId = document.ProcesosForm.elements['proceso.usurioEjerce.nroDcto'].value;
+  
+        
+        ocultarError();
+        strAccion = "buscarEjerce";
+        icoError = 'http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_error.gif';
+        document.ProcesosForm.elements['proceso.usurioEjerce.tipoDcto'].disabled = true;
+        document.ProcesosForm.elements['proceso.usurioEjerce.nroDcto'].disabled = true;           
+        openPage("/lex/procesos/buscarPersona.do", strTipoId,numeroId);
+}
+
+  function buscarApoderado()
+  {
+        strTipoId = document.ProcesosForm.elements['proceso.apoderado.tipoDcto'].value;
+        numeroId = document.ProcesosForm.elements['proceso.apoderado.nroDcto'].value;
+  
+        
+        ocultarError();
+        strAccion = "buscarApoderado";
+        icoError = 'http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_error.gif';
+        document.ProcesosForm.elements['proceso.apoderado.tipoDcto'].disabled = true;
+        document.ProcesosForm.elements['proceso.apoderado.nroDcto'].disabled = true;           
+        openPage("/lex/procesos/buscarPersona.do", strTipoId,numeroId);
+}
+
+  function nuevo(idLabel,tipoDcto,nDcto,nombre, div)
+  {
+        document.getElementById('nuevaPersona').innerHTML = contenidoNuevo  ;
+        
+        
+
+        
+        label = document.getElementById(idLabel).innerHTML;
+        
+        mostrar('nuevaPersona');
+
+        try{
+        
+        mostrar('tablaEncabezado');
+        }catch(err)
+        {
+        
+        }
+        
+
+        
+        try{
+        
+        mostrar('observaciones');
+        }catch(err)
+        {
+        
+        }        
+        mostrar('tablaPrincipal');
+        
+
+        
+        ocultarError();
+
+        strTipoDcto = tipoDcto;
+        strNroDcto = nDcto;
+        strNombre = nombre; 
+        strDivNombre = div;
+        
+        eliminarHijosElementoDOM('labelIngresos');
+        var newText =document.createTextNode(label);
+        document.getElementById('labelIngresos').appendChild(newText);
+  }
+  
+    function cancelarDos()
+  {
+
+        mostrar('nuevaPersona');
+        try{
+        
+        mostrar('tablaEncabezado');
+        }catch(err)
+        {
+        
+        }        
+                try{
+        
+        mostrar('observaciones');
+        }catch(err)
+        {
+        
+        }  
+        mostrar('tablaPrincipal');
+  }
+  
+  function continuar()
+  {
+        ocultarError();
+        mostrar('nuevaPersona');
+        
+        try{
+        
+        mostrar('tablaEncabezado');
+        }catch(err)
+        {
+        
+        }  
+        mostrar('tablaPrincipal');
+  
+  
+  }
+  
+  
+  function buscarAsuntos(){
+        
+        strArea =document.ProcesosForm.elements['proceso.codArea'].value;
+  
+	
+	strAccion = "listarAsuntos";
+	icoError = 'http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_error.gif';
+        
+        
+	document.ProcesosForm.elements['proceso.codArea'].disabled = true;
+	document.ProcesosForm.elements['proceso.codAsunto'].disabled = true;
+        
+          
+        document.ProcesosForm.elements['proceso.codigoEstudianteSemestre'].disabled = true;
+            
+    
+        
+	openPage("/lex/procesos/listarAsuntos.do", strArea);
+ }
+
+
+
+    function mostrar(tabla) {
+            if(document.getElementById(tabla).style.display == "") {
+                    document.getElementById(tabla).style.display = "none";
+            } else {
+                    document.getElementById(tabla).style.display = "";
+            }
+    }
+    
+        
+    function seleccionAreaCompetencia(precarga)
+    {
+        
+        tabla ="apoderado";
+        var idPenal = '1';
+        var idPublico = '7';
+
+        seleccionRepresenta();
+ 
+
+        if(document.ProcesosForm.elements['proceso.codArea'].value!="0")
+        {
+            if(document.ProcesosForm.elements['proceso.codArea'].value==idPenal)
+            {                
+                document.getElementById('tablaPrincipal').style.display = "";
+                
+                document.getElementById('tablaUsuarioejerce').style.display = "";
+                
+                document.getElementById('fecha1').style.display = "";
+                document.getElementById('fecha2').style.display = "";
+                document.getElementById('idFiscalia').style.display = "";
+                document.getElementById('idRdoFiscalia').style.display = "";
+                document.getElementById('idJuzgado').style.display = "";
+                document.getElementById('idRdoJuzgado').style.display = "";
+                 document.getElementById('fecha1').style.display = "";
+                 document.getElementById('fecha2').style.display = "";
+
+                if(precarga==false)
+                buscarAsuntos();
+                
+                eliminarHijosElementoDOM('idUsuarioResiste');
+                var newText =document.createTextNode('Sindicado:');
+                document.getElementById('idUsuarioResiste').appendChild(newText);
+                
+                eliminarHijosElementoDOM('idUsuarioejerce');
+                var newText =document.createTextNode('Denunciante');
+                document.getElementById('idUsuarioejerce').appendChild(newText);
+                
+
+                eliminarHijosElementoDOM('idLabelFiscalia');
+                var newText =document.createTextNode('Fiscalia :');
+                document.getElementById('idLabelFiscalia').appendChild(newText);
+                
+                eliminarHijosElementoDOM('idLabelRdoFiscalia');
+                var newText =document.createTextNode('Radicado fiscalia :');
+                document.getElementById('idLabelRdoFiscalia').appendChild(newText);     
+                
+                
+                document.getElementById('repSIN').style.display = "";
+                document.getElementById('idSIN').checked = "true";
+            }
+        
+            
+            if(document.ProcesosForm.elements['proceso.codArea'].value==idPublico)
+            {                
+                
+                document.getElementById('tablaPrincipal').style.display = "";
+                if(precarga==false)
+                buscarAsuntos();
+                
+                document.getElementById('tablaUsuarioejerce').style.display = "none";
+                
+                document.getElementById('fecha1').style.display = "none";
+                document.getElementById('fecha2').style.display = "none";
+                document.getElementById('idFiscalia').style.display = "";
+                document.getElementById('idRdoFiscalia').style.display = "";
+                document.getElementById('idJuzgado').style.display = "none";
+                document.getElementById('idRdoJuzgado').style.display = "none";
+
+                
+                eliminarHijosElementoDOM('idLabelFiscalia');
+                var newText =document.createTextNode('Entidad :');
+                document.getElementById('idLabelFiscalia').appendChild(newText);
+                
+                eliminarHijosElementoDOM('idLabelRdoFiscalia');
+                var newText =document.createTextNode('Radicado entidad :');
+                document.getElementById('idLabelRdoFiscalia').appendChild(newText);     
+                
+                
+                eliminarHijosElementoDOM('idUsuarioResiste');
+                var newText =document.createTextNode('Disciplinado:');
+                document.getElementById('idUsuarioResiste').appendChild(newText);
+                
+                document.getElementById('repDIS').style.display = "";
+                document.getElementById('idDIS').checked = "true";
+
+                
+            }
+            
+            if(document.ProcesosForm.elements['proceso.codArea'].value!=idPenal&amp;&amp;document.ProcesosForm.elements['proceso.codArea'].value!=idPublico)
+            {                
+                
+                document.getElementById('tablaPrincipal').style.display = "";
+                if(precarga==false)
+                buscarAsuntos();
+                
+                document.getElementById('fecha1').style.display = "none";
+                document.getElementById('fecha2').style.display = "none";
+                
+            
+                document.getElementById('fecha1').style.display = "none";
+                document.getElementById('fecha2').style.display = "none";
+                document.getElementById('idFiscalia').style.display = "none";
+                document.getElementById('idRdoFiscalia').style.display = "none";
+                document.getElementById('idJuzgado').style.display = "";
+                document.getElementById('idRdoJuzgado').style.display = "";
+            
+                
+                eliminarHijosElementoDOM('idUsuarioResiste');
+                var newText =document.createTextNode('Demandado:');
+                document.getElementById('idUsuarioResiste').appendChild(newText);
+                
+                eliminarHijosElementoDOM('idUsuarioejerce');
+                var newText =document.createTextNode('Demandante:');
+                document.getElementById('idUsuarioejerce').appendChild(newText);        
+                
+                seleccionRepresentaSI();
+                document.getElementById('repSIN').style.display = "none";
+                document.getElementById('repDIS').style.display = "none";
+            }            
+                 
+                    
+        
+                if(document.ProcesosForm.elements['proceso.codArea'].value==idPenal)
+                {
+
+                }
+                if(document.ProcesosForm.elements['proceso.codArea'].value==idPenal||document.ProcesosForm.elements['proceso.codArea'].value==idPublico)
+                {
+                    document.getElementById(tabla).style.display = "none";
+                }else
+                {
+                    document.getElementById(tabla).style.display = "";
+                }            
+        }else
+        {
+            document.getElementById('tablaPrincipal').style.display = "none";
+        
+        }
+        
+     
+        
+     
+    }
+    
+function seleccionRepresenta()
+{
+var opcionesObjArr = document.getElementsByTagName("table");
+
+for (var i=0;i&lt;opcionesObjArr.length;i++)
+  {
+  
+        if(opcionesObjArr[i].id!="")
+            if(opcionesObjArr[i].id.substr(0,3)=="rep")
+            {
+                
+                document.getElementById(opcionesObjArr[i].id).style.display = "none";    
+            }
+  }
+}
+
+
+function seleccionRepresentaSI()
+{
+var opcionesObjArr = document.getElementsByTagName("table");
+
+for (var i=0;i&lt;opcionesObjArr.length;i++)
+  {
+  
+        if(opcionesObjArr[i].id!="")
+            if(opcionesObjArr[i].id.substr(0,3)=="rep")
+            {
+                
+                document.getElementById(opcionesObjArr[i].id).style.display = "";    
+            }
+  }
+}    
+  
+  function ingresarProceso
+  (
+    
+  )
+  {
+     ProcesosForm.action= '/lex/procesos/ingresarProceso.do';
+     ProcesosForm.submit();
+  }    
+    
+  function ingresarProcesoEstudiantes
+  (
+    
+  )
+  {
+     ProcesosForm.action= '/lex/procesos/ingresarProcesoEstudiante.do';
+     ProcesosForm.submit();
+  }    
+    
+ 
+  function cancelar()
+  {
+
+
+    ProcesosForm.action= "/lex/procesos/cargarPaginaIngresoProcesos.do";
+    ProcesosForm.submit();
+  
+  }
+   
+   
+  function verGuiaDeControl()
+  {
+  
+
+     ProcesosForm.action= '/lex/procesos/cargarExaminarProceso.do';
+     ProcesosForm.submit();
+  }   
+ 
+   function buscarDepartamentos(){
+        strPais = document.getElementById('paises').value;
+        
+          
+	ocultarError();
+	strAccion = "listarDepartamentos";
+	icoError = 'http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_error.gif';
+	 document.getElementById('deptos').disabled = true;
+         document.getElementById('ciudad').disabled = true;
+	
+	openPage("/lex/listarDeptosLB.do", strPais);
+}
+
+function buscarCiudades(){
+strPais = ProcesosForm.elements['datosClienteForm.codigoPaisResidencia'].value;
+strDpto = ProcesosForm.elements['datosClienteForm.codigoDepartamentoResidencia'].value;
+ocultarError();
+strAccion = "listarCiudades";
+icoError = 'http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_error.gif';
+document.ProcesosForm.elements['datosClienteForm.codigoCiudadResidencia'].disabled = true;
+document.ProcesosForm.elements['datosClienteForm.codigoDepartamentoResidencia'].disabled = true;           
+openPage("/lex/listarCiudadesLB.do", strPais,strDpto);
+        
+        }
+ 
+ 
+</script>
+
+
+<input type="hidden" name="strTipoDcto" />
+<input type="hidden" name="strNroDcto" />
+<input type="hidden" name="strNombre" />
+
+
+<table border="0" width="100%" align="center">
+  <tbody><tr>
+    <td class="titulo" align="center">
+      Procesos
+    </td>
+  </tr>
+  <tr>
+    <td class="titulo" align="center">
+    
+    
+      Ingreso Proceso
+      
+      
+      
+    </td>
+  </tr>
+  <tr>
+    <td align="center">   
+  </td></tr>
+</tbody></table>
+
+
+<table width="100%" border="0" align="center" cellpadding="2" cellspacing="2">
+	<tbody><tr><td valign="middle">
+		<table width="50%" border="0" align="center" cellpadding="2" cellspacing="2" id="tblError" style="display:none">
+			<tbody><tr>
+				<td valign="middle">
+					<img name="mensaje" src="http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_error.gif" border="0" />
+				</td>
+				<td id="tdDesc" class="msgError">
+					<span id="descripcion">No se han encontrado estudiantes sin cargar con ese Código</span>
+				</td>
+			</tr>
+		</tbody></table>
+             
+		<table width="50%" border="0" align="right" cellpadding="2" cellspacing="2" id="tblCargando" style="display: none;">
+			<tbody><tr><td height="38" align="right"><img name="Cargando" src="http://tapproyecto.eafit.edu.co/imagenes/v1/icons/ico_animado.gif" border="0" /></td></tr>
+		</tbody></table>
+                <table width="50%" border="0" align="center" cellpadding="2" cellspacing="2" id="tblSombra" style="">
+			<tbody><tr><td> </td></tr>
+			<tr><td> </td></tr>
+		</tbody></table>
+	</td></tr>
+</tbody></table>
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+  
+
+<input type="hidden" name="operacion" value="3" />   
+
+<input type="hidden" name="numeroDocumento" value="" />
+<input type="hidden" name="tipoDocumento" value="" />
+<input type="hidden" name="proceso.idProceso" value="" />
+<input type="hidden" name="modificaProceso" value="" />
+
+
+
+  <table width="50%" border="0" cellpadding="2" cellspacing="2" class="texto" align="center" id="tablaEncabezado">
+         <tbody><tr>
+          <td>
+             Nombre Area de Competencia (*):             
+          </td>
+          
+          
+          <td align="left">
+            <select name="proceso.codArea" onchange="javascript:seleccionAreaCompetencia(false);" id="areas" class="form"><option value="0">--Seleccione un área de competencia--</option>
+<option value="4">CIVIL</option>
+<option value="6">COMERCIAL</option>
+<option value="5">FAMILIA</option>
+<option value="9">INTERNACIONAL</option>
+<option value="2">LABORAL</option>
+<option value="1">PENAL</option>
+<option value="10">PROCESAL</option>
+<option value="7">PÚBLICO</option></select>
+
+          </td>
+        </tr>    
+    
+    <tr align="center">
+      <td height="30" colspan="2" align="center" class="form">
+        <a href="javascript:ingresarRecado()">
+          <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/botones/btn_seleccionar.gif" border="0" />
+        </a>
+                <a href="javascript:cancelar()">
+          <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/botones/btn_cancelar.gif" border="0" />
+        </a>
+      </td>
+    </tr>        
+   <tr><td><p><br /></p></td></tr>    
+  </tbody></table>
+  
+  
+  
+<table width="85%" border="0" cellpadding="2" cellspacing="2" class="texto" align="center" style="" id="tablaPrincipal">
+
+
+
+    <tbody><tr>
+    <td width="17%" align="left" class="subtitulo" id="idUsuarioResiste" colspan="2">Demandado:</td>
+    </tr>
+    <tr valign="top">
+      <td>
+        Tipo documento (*):
+      </td>
+      <td width="81%">
+        <select name="proceso.usurioResiste.tipoDcto" class="forma"><option value="0">--Seleccione un Tipo de Documento--</option>
+<option value="CC">Cédula De Ciudadanía</option>
+<option value="CU">Cédula De Ciudadanía Ecuatoriana</option>
+<option value="CE">Cédula De Extranjería</option>
+<option value="CG">Cédula De Guatemala</option>
+<option value="CP">Cédula De Panamá</option>
+<option value="CO">Código De Estudiante</option>
+<option value="DE">Documento Nacional De Identidad</option>
+<option value="DP">Documento Personal Identificación</option>
+<option value="NU">Nro Único Identificación Personal</option>
+<option value="OT">Otro</option>
+<option value="PP">Pasaporte</option>
+<option value="RE">Registro</option>
+<option value="TI">Tarjeta De Identidad</option>
+<option value="SD">Sin Documento</option></select>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+        Número documento(*):
+      </td>
+        <td>
+            <input type="text" name="proceso.usurioResiste.nroDcto" maxlength="20" size="23" value="" />
+            <a href="javascript:buscarDefiende()">
+            <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/botones/btn_buscar.gif" border="0" />
+            </a>
+            <a href="javascript:nuevo('idUsuarioResiste','proceso.usurioResiste.tipoDcto','proceso.usurioResiste.nroDcto','proceso.usurioResiste.nombre','nombreSindicado');">
+                <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/botones/btn_nuevo.gif" border="0" alt="" />
+            </a>              
+        </td>
+
+    </tr>
+  
+    <tr valign="top">
+      <td>
+        Nombre :
+      </td>
+        <td id="nombreSindicado">undefined</td>
+        <input type="hidden" name="proceso.usurioResiste.nombre" value="undefined" />
+    </tr>   
+        <tr>
+      <td colspan="2">
+        <p>
+          <br />
+        </p>
+      </td>
+    </tr>  
+    
+
+    <tr>
+    <td colspan="2">
+    <table width="100%" id="tablaUsuarioejerce" border="0">
+    
+    <tbody><tr>
+    <td width="17%" align="left" class="subtitulo" id="idUsuarioejerce" colspan="2">Demandante:</td>
+    </tr>
+    <tr valign="top">
+      <td>
+        Tipo documento (*):
+      </td>
+      <td width="83%">
+        <select name="proceso.usurioEjerce.tipoDcto" class="forma"><option value="0">--Seleccione un Tipo de Documento--</option>
+<option value="CC">Cédula De Ciudadanía</option>
+<option value="CU">Cédula De Ciudadanía Ecuatoriana</option>
+<option value="CE">Cédula De Extranjería</option>
+<option value="CG">Cédula De Guatemala</option>
+<option value="CP">Cédula De Panamá</option>
+<option value="CO">Código De Estudiante</option>
+<option value="DE">Documento Nacional De Identidad</option>
+<option value="DP">Documento Personal Identificación</option>
+<option value="NU">Nro Único Identificación Personal</option>
+<option value="OT">Otro</option>
+<option value="PP">Pasaporte</option>
+<option value="RE">Registro</option>
+<option value="TI">Tarjeta De Identidad</option>
+<option value="SD">Sin Documento</option></select>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+        Número documento(*):
+      </td>
+        <td>
+            <input type="text" name="proceso.usurioEjerce.nroDcto" maxlength="20" size="23" value="" />
+            
+            <a href="javascript:buscarEjerce()">
+            <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/botones/btn_buscar.gif" border="0" />
+            </a>
+            <a href="javascript:nuevo('idUsuarioejerce','proceso.usurioEjerce.tipoDcto','proceso.usurioEjerce.nroDcto','proceso.usurioEjerce.nombre','nombreDemandante');">
+                <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/botones/btn_nuevo.gif" border="0" alt="" />
+            </a>              
+            
+        </td>
+
+    </tr>
+  
+    <tr valign="top">
+      <td>
+        Nombre :
+      </td>
+        <td id="nombreDemandante">Vkv M.,B</td>
+        <input type="hidden" name="proceso.usurioEjerce.nombre" value="Vkv M.,B" />
+    </tr>   
+    <tr>
+      <td colspan="2">
+        <p>
+          <br />
+        </p>
+      </td>
+    </tr>  
+    
+    </tbody></table>
+    </td>
+    </tr>
+    
+    <tr>
+    <td colspan="2">
+    <table id="apoderado" width="100%">
+    
+    
+   <tbody><tr>
+    <td width="17%" align="left" class="subtitulo" colspan="2">
+    Apoderado Contraparte:
+    
+    </td>
+    </tr>
+    <tr valign="top">
+      <td>
+        Tipo documento (*):
+      </td>
+      <td width="83%">
+        <select name="proceso.apoderado.tipoDcto" class="forma"><option value="0">--Seleccione un Tipo de Documento--</option>
+<option value="CC">Cédula De Ciudadanía</option>
+<option value="CU">Cédula De Ciudadanía Ecuatoriana</option>
+<option value="CE">Cédula De Extranjería</option>
+<option value="CG">Cédula De Guatemala</option>
+<option value="CP">Cédula De Panamá</option>
+<option value="CO">Código De Estudiante</option>
+<option value="DE">Documento Nacional De Identidad</option>
+<option value="DP">Documento Personal Identificación</option>
+<option value="NU">Nro Único Identificación Personal</option>
+<option value="OT">Otro</option>
+<option value="PP">Pasaporte</option>
+<option value="RE">Registro</option>
+<option value="TI">Tarjeta De Identidad</option>
+<option value="SD">Sin Documento</option></select>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+        Número documento(*):
+      </td>
+        <td>
+            <input type="text" name="proceso.apoderado.nroDcto" maxlength="20" size="23" value="" />
+            
+            <a href="javascript:buscarApoderado()">
+            <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/botones/btn_buscar.gif" border="0" />
+            </a>
+            <a href="javascript:nuevo('Apoderado Contraparte','proceso.apoderado.tipoDcto','proceso.apoderado.nroDcto','proceso.apoderado.nombre','nombreApoderado');">
+                <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/botones/btn_nuevo.gif" border="0" alt="" />
+            </a>              
+            
+        </td>
+
+    </tr>
+  
+    <tr valign="top">
+      <td>
+        Nombre :
+      </td>
+        <td id="nombreApoderado">Ingrid Bata</td>
+        <input type="hidden" name="proceso.apoderado.nombre" value="Ingrid Bata" />
+    </tr>   
+    <tr>
+      <td colspan="2">
+        <p>
+          <br />
+        </p>
+      </td>
+    </tr>  
+    
+    </tbody></table>
+    </td>
+    </tr>
+    
+    
+    <tr>
+    <td align="left" class="subtitulo">
+    Proceso:
+    
+    </td>
+    </tr>
+ 
+    
+    <tr valign="top" id="fecha1" style="display: none;">
+      <td>
+        Fecha Hecho :
+      </td>
+      <td>
+            <input type="text" name="proceso.fechaHecho" maxlength="8" size="8" value="" />
+                <a href="javascript:cal1.popup();"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/js/calendario/img/btnCalendario.gif" border="0" alt="Calendario" /></a>
+      </td>
+    </tr>    
+    
+    <tr valign="top" id="fecha2" style="display: none;">
+      <td>
+        Fecha Denuncia :
+      </td>
+      <td>
+            <input type="text" name="proceso.fechaDenuncia" maxlength="8" size="8" value="" />
+                <a href="javascript:cal12.popup();"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/js/calendario/img/btnCalendario.gif" border="0" alt="Calendario" /></a>
+      </td>
+    </tr>      
+
+    
+    
+    <tr valign="top" id="idFiscalia" style="display: none;">
+      <td id="idLabelFiscalia">
+        Fiscalia :
+      </td>
+      <td>
+        <input type="text" name="proceso.fiscalia.nombre" maxlength="50" size="23" value="" />
+      </td>
+    </tr>
+    <tr valign="top" id="idRdoFiscalia" style="display: none;">
+        <td id="idLabelRdoFiscalia">
+            Radicado fiscalia :
+        </td>
+        <td>
+            <input type="text" name="proceso.fiscalia.radicado" maxlength="13" size="23" value="" />
+        </td>
+    </tr>
+    
+
+    
+    <tr valign="top" id="idJuzgado">
+      <td>
+        Juzgado :
+      </td>
+      <td>
+        <input type="text" name="proceso.juzgado.nombre" maxlength="50" size="23" value="" />
+      </td>
+    </tr>
+    <tr valign="top" id="idRdoJuzgado">
+          <td>
+        Radicado Juzgado :
+      </td>
+      <td>
+        <input type="text" name="proceso.juzgado.radicado" maxlength="13" size="23" value="" />
+      </td>
+    </tr>
+    
+
+    
+    
+    
+    <tr valign="top">
+          <td>
+        Segunda Instancia:
+      </td>
+      <td>
+        
+        <textarea name="proceso.segundaInstancia" cols="40" rows="5" onkeydown="javascript:areaOnPressKey('255','proceso.segundaInstancia','ProcesosForm')" onchange="javascript:areaOnClick('255','proceso.segundaInstancia','ProcesosForm' )"></textarea>
+      </td>
+    </tr>    
+    
+            <tr>
+      <td colspan="2">
+        <p>
+          <br />
+        </p>
+      </td>
+    </tr>       
+ <tr>
+    <td align="left" class="subtitulo" colspan="2">
+    Consultorio Jurídico:
+    
+    </td>
+    </tr>
+    
+    
+    
+    
+     
+    <tr valign="top">
+      <td>
+        Semestre (*)
+      </td>
+      <td>
+        <select name="proceso.semestre" onchange="buscarEstudiantesArea();" class="forma"><option value="0">--Seleccione un semestre--</option>
+<option value="20201">20201</option>
+<option value="20192">20192</option>
+<option value="20191">20191</option>
+<option value="20182">20182</option>
+<option value="20181">20181</option>
+<option value="20172">20172</option>
+<option value="20171">20171</option>
+<option value="20162">20162</option>
+<option value="20161">20161</option>
+<option value="20152">20152</option>
+<option value="20151">20151</option>
+<option value="20142">20142</option>
+<option value="20141">20141</option>
+<option value="20132">20132</option>
+<option value="20131">20131</option>
+<option value="20122">20122</option>
+<option value="20121">20121</option>
+<option value="20112">20112</option>
+<option value="20111">20111</option>
+<option value="20102">20102</option>
+<option value="20101">20101</option>
+<option value="20092">20092</option>
+<option value="20091">20091</option>
+<option value="20082">20082</option>
+<option value="20081">20081</option>
+<option value="20072">20072</option>
+<option value="20071">20071</option>
+<option value="20062">20062</option></select>
+      </td>
+    </tr>      
+    <tr valign="top">
+      <td>
+        Estudiante asignado(*) :
+      </td>
+      <td>
+        <select name="proceso.codigoEstudianteSemestre" onchange="javascript:buscarAsesor();" id="estudiantesArea" class="forma"><option value="0">--Seleccione un Estudiante--</option><option value="10420">ACOSTA VELEZ ANA MARIA</option><option value="10405">ALEMÁN VÁSQUEZ ELISA</option><option value="10455">ALVAREZ RIOS JUAN SEBASTIAN</option><option value="10371">ARANGO GOMEZ VALENTINA</option><option value="10351">ARANGO LOPERA VALENTINA</option><option value="10504">ARANZAZU SOLANO MARIA ADELAIDA</option><option value="10487">ARCILA ZAPATA ZAYRA ANDREA</option><option value="10428">ARDILA ARCINIEGAS MARÍA CAMILA</option><option value="10391">ARISTIZABAL CHAVARRIAGA JUANITA</option><option value="10379">ARISTIZABAL VELASQUEZ PABLO</option><option value="10375">BARGUIL FERNANDEZ MARIA CAMILA</option><option value="10477">BARRIENTOS HENAO NATALIA MARIA</option><option value="10396">BECERRA MORENO MARIA VALENTINA</option><option value="10473">BETANCUR AGUILAR JULIA</option><option value="10434">BETANCUR ALZATE ANDREA ISABEL</option><option value="10493">BETTIN MONROY MANUELA</option><option value="10506">BOTERO CEBALLOS MARIANA</option><option value="10465">BOTERO RODRIGUEZ MATEO</option><option value="10481">BUSTAMANTE RUA SUSANA</option><option value="10372">CALLE ARDILA ELENA</option><option value="10486">CALLE PÉREZ LUIS DAVID</option><option value="10468">CALLE PÉREZ JOSÉ MANUEL</option><option value="10423">CAMPUZANO BETANCURT SARA VALENTINA</option><option value="10352">CARDONA FLOREZ ALEXANDER</option><option value="10407">CARDONA HERRERA KELLY JOHANA</option><option value="10498">CARDONA MERCADO ALEJANDRA</option><option value="10400">CARVAJAL ROJAS FEDERICO</option><option value="10469">CASTAÑO VELEZ SOFIA</option><option value="10436">CASTILLO VELASQUEZ SARA MELISSA</option><option value="10499">CASTRILLON GONZALEZ VALENTINA</option><option value="10483">CASTRO ORTEGA MARIANA</option><option value="10398">CONGOTE LOPEZ SARA MARIA</option><option value="10421">CORONADO GIL ANDRES FELIPE</option><option value="10501">CORRALES BUILES SANTIAGO</option><option value="10433">CORREA GÓMEZ ISABEL MARÍA</option><option value="10439">CORREA MEJÍA MARÍA CAMILA</option><option value="10479">CÓRDOBA GIRALDO JUAN ESTEBAN</option><option value="10494">DE ZUBIRIA ARANGO SIMON</option><option value="10403">ESCOBAR GIRALDO SOFIA</option><option value="10408">FRANCO MEJIA MANUELA</option><option value="10471">GAONA POSADA JUAN PABLO</option><option value="10442">GARCÍA RAMOS ALEJANDRO</option><option value="10476">GAVIRIA ARROYO LAURA MARIA</option><option value="10495">GIRALDO VELEZ MARTIN</option><option value="10450">GOMEZ AGUIRRE VALENTINA</option><option value="10503">GOMEZ ARROYAVE MANUELA</option><option value="10484">GOMEZ FRANCO MARIA DEL CARMEN</option><option value="10399">GOMEZ GALLEGO ANTONIA</option><option value="10438">GONZALEZ ESTRELLA LAURA</option><option value="10445">GONZÁLEZ HURTADO ISABEL</option><option value="10411">GONZÁLEZ MUNERA PABLO</option><option value="10490">GRAJALES GOMEZ VALENTINA</option><option value="10395">GRUEZO MUÑOZ DANIELA</option><option value="10507">GUTIERREZ RESTREPO JULIETH CRISTINA</option><option value="10505">GÓMEZ QUINTERO FELIPE</option><option value="10435">GÓMEZ VILLEGAS SEBASTIAN</option><option value="10402">HENRIQUEZ KITCHEN MARIA JOSE</option><option value="10509">HERNANDEZ ALVAREZ SEBASTIAN</option><option value="10497">HERNÁNDEZ RESTREPO ALEJANDRO</option><option value="10491">HERRERA MALO NICOLAS ENRIQUE</option><option value="10381">HOYOS BARBA JULIANA</option><option value="10502">HOYOS GONZALEZ MANUELA</option><option value="10459">JARAMILLO GAMBA DANIELA</option><option value="10406">JARAMILLO GIL JULIAN ANDRES</option><option value="10412">JARAMILLO METAUTE MATEO</option><option value="10457">JARAMILLO MURIEL MARIANA</option><option value="10472">JARAMILLO SANCHEZ CAMILO</option><option value="10397">JIMENEZ MOLINA CAROLINA</option><option value="10466">LONDOÑO MEDINA MANUELA</option><option value="10409">LONDOÑO VELEZ NICOLAS</option><option value="10440">LOPERA HENAO MARIANA</option><option value="10444">MARIN ALZATE VERONICA JOHANA</option><option value="10382">MARTINEZ DUQUE ANTONIA</option><option value="10410">MAYA GALLEGO OLGA MILENA</option><option value="10463">MAZO ARANGO MARIA CLARA</option><option value="10419">MESA LOPERA FEDERICO</option><option value="10485">MEZA MONTOYA DANIEL</option><option value="10387">MONDRAGÓN MURILLO SUSANA</option><option value="10462">MORENO BOTERO JUAN MIGUEL</option><option value="10454">MUÑOZ CORREA JESUS DAVID</option><option value="10453">MUÑOZ MESA ANDRES FELIPE</option><option value="10413">NARANJO ARANGO MARIA CAMILA</option><option value="10389">ORTEGON GULFO SARA</option><option value="10510">PELAEZ ESCOBAR SAMUEL</option><option value="10383">PEREZ SERGIO</option><option value="10380">PEREZ GOMEZ MARIA PAULINA</option><option value="10373">PEREZ GONZALEZ SANTIAGO</option><option value="10370">PINEDA DUEÑAS MARIA PATRICIA</option><option value="10443">PORRAS SALAZAR LAURA</option><option value="10461">PRECIADO ALVAREZ DANIELA</option><option value="10489">PRIETO MANJARRES MARIA EMMA</option><option value="10478">QUINTERO GOMEZ SUSANA</option><option value="10388">RAMÍREZ TABORDA MARIA ESTEFANIA</option><option value="10458">RESTREPO HERRERA DANIELA</option><option value="10511">RESTREPO MARTINEZ MANUELA</option><option value="10446">RESTREPO MEJIA MARIA ANGÉLICA</option><option value="10426">RESTREPO ZAPATA LUISA FERNANDA</option><option value="10393">RIEDER MONSALVE MARIA PAULINA</option><option value="10500">RIOS LOPERA DANIELA</option><option value="10430">RIOS VEGA JULIETH PAOLA</option><option value="10512">RIVERA BETANCUR MARÍA CAMILA</option><option value="10374">RODRIGUEZ DAVILA FELIPE JOSUE</option><option value="10385">ROJAS ESTRADA RICARDO JOSE</option><option value="10451">ROLDAN GARCIA MARIA ISABEL</option><option value="10482">RUIZ MOSCOSO PAULA ANDREA</option><option value="10448">RUIZ TOBON JUANITA</option><option value="10432">SIERRA NEGRETE MARIA PAULA</option><option value="10425">SOTO SALAZAR SOFIA</option><option value="10452">SUAREZ SEGURA CAMILA ANDREA</option><option value="10392">SÁNCHEZ MOLINA ESTEBAN</option><option value="10474">TABARES SÁNCHEZ ELIANA</option><option value="10394">TISNÉS ZAPATA EDUARDO</option><option value="10464">TOLEDO VALLEJO MARIA MANUELA</option><option value="10480">TORO BEDOYA PABLO ANDRES</option><option value="10431">TORO OSORIO ALEJANDRO</option><option value="10496">TRUJILLO AGUDELO ANA MARÍA</option><option value="10437">VALENCIA JIMÉNEZ MARÍA ANTONIA</option><option value="10492">VASQUEZ CASTILLO SALOMON</option><option value="10467">VASQUEZ DIAZ TOMAS</option><option value="10424">VELEZ MESA FELIPE</option><option value="10475">VELEZ MURILLO ANTONIA</option><option value="10449">VELEZ RESTREPO SAMUEL</option><option value="10429">VILLA GARCIA VERONICA</option><option value="10384">VILLA HOYOS ALEJANDRO</option><option value="10427">VILLA NOREÑA MARIANA</option><option value="10422">VILLA SIEGERT ELIANA</option><option value="10404">VILLARREAL MARQUEZ MELISSA</option><option value="10447">VILLEGAS SUAREZ CAMILA</option><option value="10470">VÉLEZ FRIERI DANIELA</option><option value="10378">VÉLEZ PATIÑO MARIANA</option><option value="10456">ZAPATA JARAMILLO LAURA</option><option value="10386">ZAPATA NARANJO SARA MARIA</option><option value="10401">ZULUAGA MEJIA RICARDO</option></select>
+      </td>
+    </tr>
+
+    <tr valign="top">
+             <td>
+              ¿Reasignar Automáticamente? :
+             </td>
+             <td>
+              <input type="checkbox" name="proceso.reasignar" value="on" checked="checked" />
+             </td>      
+    </tr>
+
+    <tr valign="top">
+          <td>
+        Asesor estudiante :
+      </td>
+      <td>
+        <div id="nombreAsesor">MARIA CLARA CASTRO RESTREPO</div>
+        <input type="hidden" name="proceso.nombreAsesor" value="MARIA CLARA CASTRO RESTREPO" />
+      </td>
+    </tr>
+
+
+<tr>
+<td>
+Asunto :             
+</td>
+<td align="left">
+<select name="proceso.codAsunto" id="asuntos" class="forma" disabled=""><option value="0">--Seleccione un Asunto--</option></select>
+
+</td>
+</tr>  
+
+
+<tr>
+<td colspan="2">
+Representa :             
+</td>
+
+<td width="2%">
+</td></tr><tr>
+<td colspan="2">
+<table width="85%%" id="repDDO" align="center" style="">
+<tbody><tr>
+
+<td align="left"> 
+
+</td>
+<td align="left">
+
+<input type="radio" name="proceso.codigoRepresenta" value="DDO" id="idDDO" />
+Apoderado del Demandado
+
+
+
+</td>
+</tr> 
+</tbody></table>
+
+
+</td></tr><tr>
+<td colspan="2">
+<table width="85%%" id="repDTE" align="center" style="">
+<tbody><tr>
+
+<td align="left"> 
+
+</td>
+<td align="left">
+
+<input type="radio" name="proceso.codigoRepresenta" value="DTE" id="idDTE" />
+Apoderado del Demandante
+
+
+
+</td>
+</tr> 
+</tbody></table>
+
+
+</td></tr><tr>
+<td colspan="2">
+<table width="85%%" id="repDIS" align="center" style="display: none;">
+<tbody><tr>
+
+<td align="left"> 
+
+</td>
+<td align="left">
+
+<input type="radio" name="proceso.codigoRepresenta" value="DIS" id="idDIS" />
+Apoderado del Disciplinado
+
+
+
+</td>
+</tr> 
+</tbody></table>
+
+
+</td></tr><tr>
+<td colspan="2">
+<table width="85%%" id="repSIN" align="center" style="display: none;">
+<tbody><tr>
+
+<td align="left"> 
+
+</td>
+<td align="left">
+
+<input type="radio" name="proceso.codigoRepresenta" value="SIN" id="idSIN" />
+Apoderado del Sindicado
+
+
+
+</td>
+</tr> 
+</tbody></table>
+
+
+ 
+
+
+    </td></tr><tr>
+      <td>
+        <p>
+        
+          <br />
+        </p>
+      </td>
+</tr>   
+    <tr>
+        
+      <td colspan="2">
+        <div align="center">
+            
+            
+                    
+          <a href="javascript:ingresarProceso();">
+            
+            <img src="http://tapproyecto.eafit.edu.co/imagenes/v1/botones/btn_guardar.gif" border="0" alt="" />
+          </a>
+        
+                      
+              
+
+          
+           
+
+
+        
+        </div>
+      </td>
+    </tr>     
+    
+    
+    
+    </tbody></table>
+    
+    
+<div id="observaciones">
+   
+</div>
+  
+<div id="nuevaPersona" style="display:none">
+
+
+
+
+        
+<table width="85%" border="0" align="center">
+ 
+<tbody><tr>
+<td colspan="2" class="subtitulo">
+ Ingreso <div id="labelIngresos"></div>
+ </td>
+ </tr>
+ <tr>
+
+<td align="left"> 
+
+</td></tr> 
+ 
+  	<tr>
+    	<td colspan="2">
+    		
+    		<table width="100%" border="0" cellpadding="2" cellspacing="0" class="texto">
+    			<tbody><tr>
+					<td width="24%" valign="top">Nombre (*)</td>
+           
+              
+                <td width="47%" valign="top"><input type="text" name="datosClienteForm.nombre" maxlength="20" size="25" value="" /></td>
+              
+
+              
+          
+
+				</tr>
+                <tr>
+					<td width="24%" valign="top">Apellido (*)</td>
+          
+              
+                <td width="47%" valign="top"><input type="text" name="datosClienteForm.apellido" maxlength="30" size="25" value="" /></td>
+              
+
+              
+            
+
+					
+          
+				</tr>
+                <tr>
+					<td valign="top">Número de documento (*)</td>
+					<td valign="top"><input type="text" name="datosClienteForm.numeroDocumento" maxlength="20" size="12" value="" /></td>
+				</tr>
+    			<tr>
+					<td valign="top">Tipo de documento (*)</td>
+					<td valign="top">
+						<select name="datosClienteForm.tipoDocumento" class="forma"><option value="CC">Cédula De Ciudadanía</option>
+<option value="CU">Cédula De Ciudadanía Ecuatoriana</option>
+<option value="CE">Cédula De Extranjería</option>
+<option value="CG">Cédula De Guatemala</option>
+<option value="CP">Cédula De Panamá</option>
+<option value="CO">Código De Estudiante</option>
+<option value="DE">Documento Nacional De Identidad</option>
+<option value="DP">Documento Personal Identificación</option>
+<option value="NU">Nro Único Identificación Personal</option>
+<option value="OT">Otro</option>
+<option value="PP">Pasaporte</option>
+<option value="RE">Registro</option>
+<option value="TI">Tarjeta De Identidad</option>
+<option value="SD">Sin Documento</option></select>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Género (*)</td>
+					<td valign="top">
+						<select name="datosClienteForm.codigoSexo" class="forma"><option value="M">MASCULINO</option>
+						  <option value="F">FEMENINO</option></select>
+					</td>
+				</tr>
+		
+
+				<tr>
+					<td valign="top">Email</td>
+          
+					
+          
+           
+              
+                  <td valign="top"><input type="text" name="datosClienteForm.email" maxlength="120" size="40" value="" /></td>    
+              
+
+              
+            
+
+          
+				</tr>
+				<tr>
+					<td valign="top">Celular</td>
+					<td valign="top"><input type="text" name="datosClienteForm.telefonoMovil" maxlength="30" size="31" value="" /></td>
+				</tr>
+				<tr>
+					<td valign="top">Fax</td>
+					<td valign="top"><input type="text" name="datosClienteForm.fax" maxlength="30" size="31" value="" /></td>
+				</tr>
+
+				<tr>
+					<td valign="top">Teléfono residencia (*)</td>
+					<td valign="top"><input type="text" name="datosClienteForm.telefonoResidencia" maxlength="30" size="31" value="" /></td>
+				</tr>
+				<tr>
+					<td valign="top">Dirección residencia (*)</td>
+					<td valign="top"><input type="text" name="datosClienteForm.direccionResidencia" maxlength="255" size="40" value="" /></td>
+				</tr>
+				<tr>
+					<td valign="top">País residencia (*)</td>
+					<td valign="top">
+                         <select name="datosClienteForm.codigoPaisResidencia" onchange="buscarDepartamentos();" id="paises" class="forma"><option value="">-- Seleccione una opción --</option>
+<option value="013">AFGANISTAN</option>
+<option value="017">ALBANIA</option>
+<option value="02">ALEMANIA</option>
+<option value="037">ANDORRA</option>
+<option value="040">ANGOLA</option>
+<option value="041">ANGUILLA</option>
+<option value="043">ANTIGUA Y BARBUDA</option>
+<option value="84">ANTILLAS HOLANDESAS</option>
+<option value="053">ARABIA SAUDITA</option>
+<option value="059">ARGELIA</option>
+<option value="01">ARGENTINA</option>
+<option value="026">ARMENIA</option>
+<option value="96">ARUBA</option>
+<option value="21">AUSTRALIA</option>
+<option value="58">AUSTRIA</option>
+<option value="074">AZERBAIJAN</option>
+<option value="453">BAHAMAS</option>
+<option value="080">BAHREIN</option>
+<option value="081">BANGLADESH</option>
+<option value="083">BARBADOS</option>
+<option value="091">BELARUS</option>
+<option value="03">BELGICA</option>
+<option value="088">BELICE</option>
+<option value="229">BENIN</option>
+<option value="090">BERMUDAS</option>
+<option value="093">BIRMANIA</option>
+<option value="88">BOLIVIA</option>
+<option value="029">BOSNIA-HERZEGOVINA</option>
+<option value="101">BOTSWANA</option>
+<option value="04">BRASIL</option>
+<option value="108">BRUNEI DARUSSALAM</option>
+<option value="79">BULGARIA</option>
+<option value="031">BURKINA FASSO</option>
+<option value="115">BURUNDI</option>
+<option value="119">BUTAN</option>
+<option value="127">CABO VERDE</option>
+<option value="137">CAIMAN, ISLAS</option>
+<option value="145">CAMERUN, REPUBLICA U</option>
+<option value="05">CANADA</option>
+<option value="155">CANAL(NORMANDAS),ISL</option>
+<option value="157">CANTON ENDERBURY, ISL</option>
+<option value="203">CHAD</option>
+<option value="28">CHILE</option>
+<option value="74">CHINA</option>
+<option value="159">CIUDAD DEL VATICANO</option>
+<option value="165">COCOS (KEELING), ISL</option>
+<option value="20" selected="selected">COLOMBIA</option>
+<option value="173">COMORAS</option>
+<option value="998">COMUNIDAD EUROPEA</option>
+<option value="177">CONGO</option>
+<option value="183">COOK, ISLAS</option>
+<option value="06">COREA DE SUR, REPUBLICA</option>
+<option value="187">COREA DEL NORTE , REPUBLICA</option>
+<option value="193">COSTA DE MARFIL</option>
+<option value="24">COSTA RICA</option>
+<option value="198">CROACIA</option>
+<option value="22">CUBA</option>
+<option value="789">CURAZAO</option>
+<option value="07">DINAMARCA</option>
+<option value="783">DJIBOUTI</option>
+<option value="235">DOMINICA</option>
+<option value="31">ECUADOR</option>
+<option value="240">EGIPTO</option>
+<option value="19">EL LIBANO</option>
+<option value="89">EL SALVADOR</option>
+<option value="244">EMIRATOS ARABES UNIDOS</option>
+<option value="243">ERITREA</option>
+<option value="39">ESCOCIA</option>
+<option value="80">ESLOVAQUIA</option>
+<option value="247">ESLOVENIA</option>
+<option value="08">ESPANA</option>
+<option value="09">ESTADOS UNIDOS</option>
+<option value="251">ESTONIA</option>
+<option value="253">ETIOPIA</option>
+<option value="98">EUROPA</option>
+<option value="259">FEROE, ISLAS</option>
+<option value="870">FIJI</option>
+<option value="267">FILIPINAS</option>
+<option value="10">FINLANDIA</option>
+<option value="11">FRANCIA</option>
+<option value="281">GABON</option>
+<option value="285">GAMBIA</option>
+<option value="286">GAZA Y JERICO</option>
+<option value="287">GEORGIA</option>
+<option value="289">GHANA</option>
+<option value="293">GIBRALTAR</option>
+<option value="297">GRANADA</option>
+<option value="301">GRECIA</option>
+<option value="305">GROENLANDIA</option>
+<option value="309">GUADALUPE</option>
+<option value="313">GUAM</option>
+<option value="29">GUATEMALA</option>
+<option value="325">GUAYANA</option>
+<option value="329">GUINEA</option>
+<option value="334">GUINEA - BISSAU</option>
+<option value="331">GUINEA ECUATORIAL</option>
+<option value="337">GUYANA</option>
+<option value="341">HAITI</option>
+<option value="12">HOLANDA</option>
+<option value="99">HONDURAS</option>
+<option value="351">HONG KONG</option>
+<option value="355">HUNGRIA</option>
+<option value="13">INDIA</option>
+<option value="365">INDONESIA</option>
+<option value="26">INGLATERRA</option>
+<option value="369">IRAK</option>
+<option value="372">IRAN, REPUBLICA ISLA</option>
+<option value="17">IRLANDA </option>
+<option value="375">IRLANDA DEL NORTE</option>
+<option value="379">ISLANDIA</option>
+<option value="37">ISRAEL</option>
+<option value="14">ITALIA</option>
+<option value="52">JAMAICA</option>
+<option value="15">JAPON</option>
+<option value="395">JOHNSTON, ISLA</option>
+<option value="403">JORDANIA</option>
+<option value="141">KAMPUCHEA</option>
+<option value="406">KAZAJISTÁN</option>
+<option value="63">KENYA</option>
+<option value="412">KIRGUIZISTAN</option>
+<option value="411">KIRIBATI</option>
+<option value="413">KUWAIT</option>
+<option value="420">LAOS, REPUBLICA POPUL</option>
+<option value="426">LESOTHO</option>
+<option value="429">LETONIA</option>
+<option value="431">LIBANO</option>
+<option value="434">LIBERIA</option>
+<option value="438">LIBIA</option>
+<option value="440">LIECHTENSTEIN</option>
+<option value="443">LITUANIA</option>
+<option value="445">LUXEMBURGO</option>
+<option value="447">MACAO</option>
+<option value="448">MACEDONIA</option>
+<option value="450">MADAGASCAR</option>
+<option value="455">MALASIA</option>
+<option value="458">MALAWI</option>
+<option value="461">MALDIVAS</option>
+<option value="464">MALI</option>
+<option value="467">MALTA</option>
+<option value="469">MARIANAS DEL NORTE</option>
+<option value="474">MARRUECOS</option>
+<option value="472">MARSHALL, ISLAS</option>
+<option value="477">MARTINICA</option>
+<option value="485">MAURICIO</option>
+<option value="488">MAURITANIA</option>
+<option value="16">MEXICO</option>
+<option value="494">MICRONESIA, ESTADOS F</option>
+<option value="495">MIDWAY, ISLAS</option>
+<option value="496">MOLDAVIA</option>
+<option value="498">MONACO</option>
+<option value="497">MONGOLIA</option>
+<option value="501">MONSERRAT, ISLAS</option>
+<option value="505">MOZAMBIQUE</option>
+<option value="507">NAMIBIA</option>
+<option value="508">NAURU</option>
+<option value="511">NAVIDAD (CHRISTMAS)</option>
+<option value="517">NEPAL</option>
+<option value="32">NICARAGUA</option>
+<option value="525">NIGER</option>
+<option value="528">NIGERIA</option>
+<option value="531">NIUE, ISLA</option>
+<option value="001">NIVE ISLA</option>
+<option value="999">NO DECLARADO</option>
+<option value="535">NORFOLK, ISLA</option>
+<option value="47">NORUEGA</option>
+<option value="542">NUEVA CALEDONIA</option>
+<option value="54">NUEVA ZELANDA</option>
+<option value="556">OMAN</option>
+<option value="566">PACIFICO, ISLAS</option>
+<option value="573">PAISES BAJOS ( HOLANDA)</option>
+<option value="576">PAKISTAN</option>
+<option value="578">PALAU, ISLAS</option>
+<option value="33">PANAMA</option>
+<option value="545">PAPUASIA NUEVA GUINEA</option>
+<option value="586">PARAGUAY</option>
+<option value="25">PERU</option>
+<option value="593">PITCAIRN, ISLA</option>
+<option value="599">POLINESIA FRANCESA</option>
+<option value="60">POLONIA</option>
+<option value="81">POLONIA</option>
+<option value="38">PORTUGAL</option>
+<option value="44">PUERTO RICO</option>
+<option value="618">QATAR</option>
+<option value="628">REINO UNIDO</option>
+<option value="27">REP. DOMINICANA</option>
+<option value="640">REPUBLICA CENTROAFRI</option>
+<option value="36">REPUBLICA CHECA</option>
+<option value="221">REPUBLICA DE CHIPRE</option>
+<option value="741">REPUBLICA DE SINGAPUR</option>
+<option value="65">REPUBLICA POPULAR DE CHINA</option>
+<option value="100">RUMANIA</option>
+<option value="78">RUSIA</option>
+<option value="675">RWANDA</option>
+<option value="685">SAHARA OCCIDENTAL</option>
+<option value="686">SAINT MARTIN</option>
+<option value="677">SALOMSN, ISLAS</option>
+<option value="687">SAMOA</option>
+<option value="690">SAMOA NORTEAMERICANA</option>
+<option value="695">SAN CRISTOBAL NIEVE</option>
+<option value="697">SAN MARINO</option>
+<option value="700">SAN PEDRO Y MIGUELON</option>
+<option value="705">SAN VICENTE</option>
+<option value="710">SANTA ELENA</option>
+<option value="715">SANTA LUCIA</option>
+<option value="720">SANTO TOME Y PRINCIP</option>
+<option value="728">SENEGAL</option>
+<option value="731">SEYCHELLES</option>
+<option value="735">SIERRA LEONA</option>
+<option value="744">SIRIA, REPUBLICA ARAB</option>
+<option value="748">SOMALIA</option>
+<option value="750">SRI LANKA</option>
+<option value="756">SUDAFRICA</option>
+<option value="759">SUDAN</option>
+<option value="34">SUECIA</option>
+<option value="18">SUISSE</option>
+<option value="56">SUIZA</option>
+<option value="770">SURINAM</option>
+<option value="773">SWAZILANDIA</option>
+<option value="774">TADJIKISTAN</option>
+<option value="776">TAILANDIA</option>
+<option value="218">TAIWAN </option>
+<option value="780">TANZANI, REPUBLICA U</option>
+<option value="786">TERRI ANTARTICO BRIT</option>
+<option value="787">TERRITORIO BRITANICO</option>
+<option value="788">TIMOR DEL ESTE</option>
+<option value="800">TOGO</option>
+<option value="805">TOKELAU</option>
+<option value="810">TONGA</option>
+<option value="815">TRINIDAD Y TOBAGO</option>
+<option value="820">TUNICIA</option>
+<option value="823">TURCAS Y CAICOS, ISLA</option>
+<option value="825">TURKMENISTAN</option>
+<option value="35">TURQUIA</option>
+<option value="828">TUVALU</option>
+<option value="830">UCRANIA</option>
+<option value="833">UGANDA</option>
+<option value="848">UNITED KINGDOM</option>
+<option value="30">URUGUAY</option>
+<option value="847">UZBEKISTAN</option>
+<option value="551">VANUATU</option>
+<option value="23">VENEZUELA</option>
+<option value="855">VIETNAM</option>
+<option value="863">VIRGENES, ISLAS </option>
+<option value="866">VIRGENES, ISLAS (NORTE)</option>
+<option value="873">WAKE, ISLA</option>
+<option value="875">WALLIS Y FORTUNA, ISLA</option>
+<option value="880">YEMEN</option>
+<option value="885">YUGOSLAVIA</option>
+<option value="888">ZAIRE</option>
+<option value="890">ZAMBIA</option>
+<option value="665">ZIMBABWE</option>
+<option value="895">ZONA CANAL DE PANAMA</option>
+<option value="897">ZONA NEUTRAL ( PALESTA</option></select>
+                    </td>
+				</tr>
+				<tr>
+					<td valign="top">Departamento residencia (*)</td>
+					<td valign="top">
+                                         <select name="datosClienteForm.codigoDepartamentoResidencia" onchange="buscarCiudades();" id="deptos" class="forma"><option value="">-- Seleccione una opción --</option>
+<option value="91">AMAZONAS</option>
+<option value="05" selected="selected">ANTIOQUIA</option>
+<option value="81">ARAUCA</option>
+<option value="08">ATLANTICO</option>
+<option value="11">BOGOTA </option>
+<option value="13">BOLIVAR</option>
+<option value="15">BOYACA</option>
+<option value="17">CALDAS</option>
+<option value="18">CAQUETA</option>
+<option value="85">CASANARE</option>
+<option value="19">CAUCA</option>
+<option value="20">CESAR</option>
+<option value="27">CHOCO</option>
+<option value="23">CORDOBA</option>
+<option value="25">CUNDINAMARCA</option>
+<option value="00">EXTRANJERO</option>
+<option value="94">GUAINIA</option>
+<option value="95">GUAVIARE</option>
+<option value="41">HUILA</option>
+<option value="44">LA GUAJIRA</option>
+<option value="47">MAGDALENA</option>
+<option value="50">META</option>
+<option value="52">NARIÑO</option>
+<option value="54">NORTE DE SANTANDER</option>
+<option value="86">PUTUMAYO</option>
+<option value="63">QUINDIO</option>
+<option value="66">RISARALDA</option>
+<option value="88">SAN ANDRES</option>
+<option value="68">SANTANDER</option>
+<option value="70">SUCRE</option>
+<option value="73">TOLIMA</option>
+<option value="76">VALLE</option>
+<option value="97">VAUPES</option>
+<option value="99">VICHADA</option></select>
+                    </td>
+				</tr>
+				<tr>
+					<td valign="top">Municipio residencia (*)</td>
+					<td valign="top">
+                        <select name="datosClienteForm.codigoCiudadResidencia" id="ciudad" class="forma"><option value="">-- Seleccione una opción --</option>
+<option value="002">ABEJORRAL</option>
+<option value="004">ABRIAQUI</option>
+<option value="021">ALEJANDRIA</option>
+<option value="030">AMAGA</option>
+<option value="031">AMALFI</option>
+<option value="034">ANDES</option>
+<option value="036">ANGELÓPOLIS</option>
+<option value="038">ANGOSTURA</option>
+<option value="040">ANORI</option>
+<option value="044">ANZA</option>
+<option value="045">APARTADÓ</option>
+<option value="051">ARBOLETES</option>
+<option value="055">ARGELIA</option>
+<option value="059">ARMENIA</option>
+<option value="079">BARBOSA</option>
+<option value="088">BELLO</option>
+<option value="086">BELMIRA</option>
+<option value="091">BETANIA</option>
+<option value="093">BETULIA</option>
+<option value="101">BOLIVAR</option>
+<option value="107">BRICENO</option>
+<option value="113">BURITICA</option>
+<option value="120">CACERES</option>
+<option value="125">CAICEDO</option>
+<option value="129">CALDAS</option>
+<option value="134">CAMPAMENTO</option>
+<option value="138">CANAS GORDAS</option>
+<option value="142">CARACOLÍ</option>
+<option value="145">CARAMANTA</option>
+<option value="147">CAREPA</option>
+<option value="146">CAREPA NO USAR</option>
+<option value="150">CAROLINA</option>
+<option value="151">CASABE</option>
+<option value="154">CAUCASIA</option>
+<option value="172">CHIGORODÓ</option>
+<option value="190">CISNEROS</option>
+<option value="197">COCORNA</option>
+<option value="206">CONCEPCION</option>
+<option value="209">CONCORDIA</option>
+<option value="212">COPACABANA</option>
+<option value="234">DABEIBA</option>
+<option value="237">DONMATIAS</option>
+<option value="240">EBEJICO</option>
+<option value="250">EL BAGRE</option>
+<option value="148">EL CARMEN DE VIBORAL</option>
+<option value="541">EL PEÑOL</option>
+<option value="607">EL RETIRO</option>
+<option value="697">EL SANTUARIO</option>
+<option value="264">ENTRERRIOS</option>
+<option value="266">ENVIGADO</option>
+<option value="282">FREDONIA</option>
+<option value="284">FRONTINO</option>
+<option value="306">GIRALDO</option>
+<option value="308">GIRARDOTA</option>
+<option value="313">GRANADA</option>
+<option value="315">GUADALUPE</option>
+<option value="318">GUARNE</option>
+<option value="321">GUATAPÉ</option>
+<option value="310">GÓMEZ PLATA</option>
+<option value="347">HELICONIA</option>
+<option value="353">HISPANIA</option>
+<option value="360">ITAGÜÍ</option>
+<option value="361">ITUANGO</option>
+<option value="364">JARDÍN</option>
+<option value="368">JERICÓ</option>
+<option value="376">LA CEJA</option>
+<option value="380">LA ESTRELLA</option>
+<option value="387">LA MAGDALENA</option>
+<option value="390">LA PINTADA</option>
+<option value="400">LA UNION</option>
+<option value="411">LIBORINA</option>
+<option value="425">MACEO</option>
+<option value="440">MARINILLA</option>
+<option value="001" selected="selected">MEDELLÍN</option>
+<option value="467">MONTEBELLO</option>
+<option value="475">MURINDO</option>
+<option value="480">MUTATA</option>
+<option value="483">NARINO</option>
+<option value="495">NECHI</option>
+<option value="490">NECOCLI</option>
+<option value="501">OLAYA</option>
+<option value="543">PEQUE</option>
+<option value="576">PUEBLO RICO</option>
+<option value="579">PUERTO BERRIO</option>
+<option value="585">PUERTO NARE</option>
+<option value="591">PUERTO TRIUNFO</option>
+<option value="604">REMEDIOS</option>
+<option value="615">RIONEGRO</option>
+<option value="628">SABANALARGA</option>
+<option value="631">SABANETA</option>
+<option value="642">SALGAR</option>
+<option value="647">SAN ANDRES</option>
+<option value="060">SAN ANTONIO DE PRADO</option>
+<option value="649">SAN CARLOS</option>
+<option value="652">SAN FRANCISCO</option>
+<option value="656">SAN JERONIMO</option>
+<option value="658">SAN JOSE DE LA MONTANA</option>
+<option value="659">SAN JUAN DE URABA</option>
+<option value="660">SAN LUIS</option>
+<option value="664">SAN PEDRO</option>
+<option value="665">SAN PEDRO DE URABA</option>
+<option value="667">SAN RAFAEL</option>
+<option value="670">SAN ROQUE</option>
+<option value="674">SAN VICENTE</option>
+<option value="679">SANTA BARBARA</option>
+<option value="042">SANTA FE DE ANTIOQUIA</option>
+<option value="686">SANTA ROSA DE OSOS</option>
+<option value="690">SANTO DOMINGO</option>
+<option value="736">SEGOVIA</option>
+<option value="756">SONSÓN</option>
+<option value="761">SOPETRÁN</option>
+<option value="789">TAMESIS</option>
+<option value="790">TARAZA</option>
+<option value="792">TARSO</option>
+<option value="809">TITIRIBI</option>
+<option value="819">TOLEDO</option>
+<option value="837">TURBO</option>
+<option value="842">URAMITA</option>
+<option value="847">URRAO</option>
+<option value="854">VALDIVIA</option>
+<option value="856">VALPARAISO</option>
+<option value="858">VEGACHI</option>
+<option value="861">VENECIA</option>
+<option value="873">VIGIA DEL FUERTE</option>
+<option value="885">YALI</option>
+<option value="887">YARUMAL</option>
+<option value="890">YOLOMBO</option>
+<option value="893">YONDO</option>
+<option value="895">ZARAGOZA</option></select>
+                    </td>
+				</tr>				
+
+
+                 <input type="hidden" name="datosClienteForm.tipoDocumentoRepresentante" value="" />
+              
+      <tr align="center">
+					<td colspan="2">
+                                        
+            
+            
+            <a id="divGuardar" href="javascript:;" onclick="ingresarPersona(); return false;"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/botones/btn_guardar.gif" border="0" /></a>
+            
+            
+            <a id="divContinuar" style="display:none" href="javascript:;" onclick="continuar(); return false;"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/botones/btn_continuar.gif" border="0" /></a>
+            
+            
+            <a href="javascript:;" onclick="cancelarDos(); return false;"><img src="http://tapproyecto.eafit.edu.co/imagenes/v1/botones/btn_cancelar.gif" border="0" /></a>
+            
+        
+        				</td>          
+		 		</tr>
+				
+			</tbody></table>
+    	</td>
+  	</tr>
+</tbody></table>
+
+
+</div>  
+<table width="85%" align="center">
+<tbody><tr>
+<td colspan="2" align="left">
+<div align="left">
+
+<a href="javascript:volver();">
+<img src="http://tapproyecto.eafit.edu.co/imagenes/v1/icons/icoRegresar.gif" border="0" alt="" />
+</a>              
+</div>
+</td>
+</tr>     
+
+</tbody></table>
+
+</form>
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var cal1 = new calendario(document.ProcesosForm.elements['proceso.fechaHecho']);
+	cal1.year_scroll = true;
+	cal1.time_comp = false;
+        
+        
+        var cal12 = new calendario(document.ProcesosForm.elements['proceso.fechaDenuncia']);
+	cal12.year_scroll = true;
+	cal12.time_comp = false;
+</script>
+
+          <div align="center" class="noPrint">
+            <div align="center" class="mini">
+                Los campos marcados con * son obligatorios
+                <p>
+                Utilice <a href="http://www.microsoft.com/downloads/details.aspx?displaylang=es&amp;FamilyID=1e1550cb-5e5d-48f5-b02b-20b602228de6" target="_blank">Internet Explorer 6.0</a> o una versión superior de este navegador.
+                </p><p>
+            </p></div>
+          </div>
+        </td>
+      </tr>
+    </tbody></table>
+  
+</html:html>
+</body></html>

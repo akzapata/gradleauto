@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CRONOS -> Desacoplamiento","Menu Proveedores/ Opcion Editar proveedores","SUCCESS","2020-08-21T12:29:06.664-05:00[America/Bogota]","0.0","64.2"
+"CRONOS -> Desacoplamiento","Menu Servicios/ Opcion Solicitar requerimiento","SUCCESS","2020-08-21T12:30:10.999-05:00[America/Bogota]","0.0","21.04"
+"CRONOS -> Desacoplamiento","Menu Bienes/ Opcion Lista de requerimientos","SUCCESS","2020-08-21T12:30:32.147-05:00[America/Bogota]","0.0","24.54"
+"CRONOS -> Desacoplamiento","Menu Bienes/ Opcion Solicitar requerimiento","SUCCESS","2020-08-21T12:30:56.796-05:00[America/Bogota]","0.0","27.7"
+"CRONOS -> Desacoplamiento","Menu Bienes/ Opcion Confirmar Bienes recurrentes","SUCCESS","2020-08-21T12:31:24.581-05:00[America/Bogota]","0.0","15.85"
