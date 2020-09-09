@@ -42,7 +42,7 @@ And ve la palabra en la tabla de items
 Scenario:  Menu Administracion / Opcion Cambio documento
 Given que un administrador quiere cambiar el numero de documento de un estudiante
 When el ingresa a la opcion Cambiar documento
-Then el ingresa tipo_doc_antes "CC" Num_doc_antes "12345" tipo_doc_despues "CC" y Num_doc_despues "88123456780"
+Then el ingresa tipo_doc_antes "CC" Num_doc_antes "12345" tipo_doc_despues "CC" y Num_doc_despues "88166456780"
 And da clic en el boton buscar y en el boton actualizar
 And el ve en pantalla el mensaje de cambio de documento exitoso 
 
