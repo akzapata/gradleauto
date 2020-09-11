@@ -5,20 +5,20 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Requirements</title>
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
@@ -49,11 +49,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 3],
+                ['Passing', 2],
                 ['Pending', 0],
                 ['Ignored', 0],
-                ['Failing', 3],
-                ['Errors',  1],
+                ['Failing', 0],
+                ['Errors',  0],
                 ['Compromised',  0],
                 ['Untested',  0],
             ]
@@ -82,11 +82,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '3 requirements tested successfully'},
+                {label: '2 requirements tested successfully'},
                 {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
-                {label: '3} requirements with failures'},
-                {label: '1} requirements with errors'},
+                {label: '0} requirements with failures'},
+                {label: '0} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
@@ -177,7 +177,7 @@
             <a href="#"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-09-2020 10:38</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-09-2020 15:10</span>
     <br style="clear:left"/>
 </div>
 
@@ -211,9 +211,9 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
                                         (tests)</a></td>
-                                    <td>7</td>
-                                    <td>3</td>
-                                    <td>4</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -242,9 +242,9 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>7</td>
-            <td>3 (43%)</td>
-            <td>4 (57%)</td>
+            <td>2</td>
+            <td>2 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -258,15 +258,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>7</td>
-            <td>3 (43%)</td>
-            <td>4 (57%)</td>
+            <td>2</td>
+            <td>2 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">13 minutes 25 seconds</td>
+                <td colspan="5">32 seconds</td>
         </tr>
         </body>
     </table>
@@ -294,121 +294,6 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
-                                    
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
-                                    <div class="ellipsis">
-
-                                        <a href="bb13931cd9431bcb0f81db67da1114d68ecb3ede2aa431f158ebbb434924c741.html" class="ellipsis"
-                                           title="Menu Proveedores/ Opcion Editar proveedores Element should be enabled exception: ...">
-                                            Menu Proveedores/ Opcion Editar proveedores
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="FAILURE-text">7</td>
-
-
-                                <td class="FAILURE-text" data-sort="2020-09-09 10:38:56">10:38:56</td>
-
-                                <td class="FAILURE-text">50.04</td>
-                            </tr>
-
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
-                                    
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
-                                    <div class="ellipsis">
-
-                                        <a href="4397ddb4ce2bfd52c9597cd2da195e1a8e7fe6e9dc391723f91e568fc842ff01.html" class="ellipsis"
-                                           title="Menu Servicios/ Opcion Solicitar requerimiento Element should be enabled exception: ...">
-                                            Menu Servicios/ Opcion Solicitar requerimiento
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="FAILURE-text">8</td>
-
-
-                                <td class="FAILURE-text" data-sort="2020-09-09 10:39:46">10:39:46</td>
-
-                                <td class="FAILURE-text">139.72</td>
-                            </tr>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="3398959eb9b4c0c00f5c75c6736b030450f10fefc4680487e37e67eca1e724db.html" class="ellipsis"
-                                           title="Menu Bienes/ Opcion Lista de requerimientos ">
-                                            Menu Bienes/ Opcion Lista de requerimientos
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="SUCCESS-text">7</td>
-
-
-                                <td class="SUCCESS-text" data-sort="2020-09-09 10:42:06">10:42:06</td>
-
-                                <td class="SUCCESS-text">212.68</td>
-                            </tr>
-
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
-                                    
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
-                                    <div class="ellipsis">
-
-                                        <a href="acf5de066901fb580b4c820c60db3cdca43700fa02fd5582538ed860216322de.html" class="ellipsis"
-                                           title="Menu Bienes/ Opcion Solicitar requerimiento Element should be enabled exception: ...">
-                                            Menu Bienes/ Opcion Solicitar requerimiento
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="FAILURE-text">8</td>
-
-
-                                <td class="FAILURE-text" data-sort="2020-09-09 10:45:39">10:45:39</td>
-
-                                <td class="FAILURE-text">79.31</td>
-                            </tr>
-
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                                    
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
-                                    <div class="ellipsis">
-
-                                        <a href="8ab1232f75477d835b912c23da8e1375372c8f540e521c217f7a0ff98e91bda3.html" class="ellipsis"
-                                           title="Menu Bienes/ Opcion Confirmar Bienes recurrentes No such element exception: The follow...">
-                                            Menu Bienes/ Opcion Confirmar Bienes recurrentes
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="ERROR-text">8</td>
-
-
-                                <td class="ERROR-text" data-sort="2020-09-09 10:46:58">10:46:58</td>
-
-                                <td class="ERROR-text">239.17</td>
-                            </tr>
-
                             <tr class="test-SUCCESS">
                                 <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
@@ -427,9 +312,9 @@
                                 <td class="SUCCESS-text">7</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2020-09-11 14:10:52">14:10:52</td>
+                                <td class="SUCCESS-text" data-sort="2020-09-11 15:10:03">15:10:03</td>
 
-                                <td class="SUCCESS-text">37.97</td>
+                                <td class="SUCCESS-text">20.07</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -450,9 +335,9 @@
                                 <td class="SUCCESS-text">7</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2020-09-11 14:11:30">14:11:30</td>
+                                <td class="SUCCESS-text" data-sort="2020-09-11 15:10:23">15:10:23</td>
 
-                                <td class="SUCCESS-text">46.82</td>
+                                <td class="SUCCESS-text">11.57</td>
                             </tr>
                         </tbody>
                     </table>

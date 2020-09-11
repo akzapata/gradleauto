@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MERCURIO -&gt; Desacoplamiento" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-09-11T19:10:54" hostname="PTOF67355" time="82.489">
+<testsuite name="MERCURIO -&gt; Desacoplamiento" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-09-11T20:10:05" hostname="PTOF67355" time="29.233">
   <properties/>
-  <testcase name="Menu carnetizacion / Opcion Gestion Carnes" classname="MERCURIO -&gt; Desacoplamiento" time="35.669"/>
-  <testcase name="Menu Clientes / Opcion Datos basicos clientes" classname="MERCURIO -&gt; Desacoplamiento" time="46.814"/>
+  <testcase name="Menu carnetizacion / Opcion Gestion Carnes" classname="MERCURIO -&gt; Desacoplamiento" time="17.655"/>
+  <testcase name="Menu Clientes / Opcion Datos basicos clientes" classname="MERCURIO -&gt; Desacoplamiento" time="11.57"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[sep 11, 2020 2:10:55 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[sep 11, 2020 3:10:06 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90) on port 12143
+Starting ChromeDriver 2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90) on port 24261
 Only local connections are allowed.
-sep 11, 2020 2:10:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+sep 11, 2020 3:10:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -20,9 +20,9 @@ INFORMACIÓN: Detected dialect: OSS
 
 TEST PASSED: Menu carnetizacion / Opcion Gestion Carnes
 ----------------------------------------------------------------------------
-sep 11, 2020 2:11:30 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+sep 11, 2020 3:10:23 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-sep 11, 2020 2:11:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+sep 11, 2020 3:10:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 [Test worker] INFO net.serenitybdd.core.Serenity - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

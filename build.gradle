@@ -9,36 +9,36 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:1.9.9")
-     // classpath "net.serenity-bdd:serenity-gradle-plugin:2.1.4"
-   //     classpath "net.serenity-bdd:serenity-single-page-report:2.1.4"
-      
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.9.45")     
     }
 }
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
-apply plugin: 'net.serenity-bdd.aggregator'
+apply plugin: 'net.serenity-bdd.aggregator' 
 
-test {
-    useJUnit {
-        include "**/RunnerTags.class"
-        gradle.startParameter.continueOnFailure = false
-        testLogging.showStandardStreams = true
-    }
-
-    //Loggin test
+test {	
+ 	useJUnit {							
+		include "**/RunnerTags.class";
+ 		//Sigue ejecutando aunque falle un caso
+		gradle.startParameter.continueOnFailure = true
+		//      
+		testLogging.showStandardStreams = true
+		systemProperties System.getProperties()	   	 	
+	}
+  
+   //Loggin test
     testLogging {
         showStandardStreams = true
     }
     outputs.upToDateWhen { false }
-    systemProperties 'property': 'value'
-}
+    systemProperties 'property': 'value'   
+}                            
 
 dependencies {
-    testCompile 'net.serenity-bdd:serenity-core:1.9.9'                  
-    testCompile 'net.serenity-bdd:serenity-junit:1.9.9'                
+	testCompile 'net.serenity-bdd:serenity-core:1.9.9'                  
+    testCompile 'net.serenity-bdd:serenity-junit:1.1.1'                
     testCompile('junit:junit:4.12')
     testCompile('org.assertj:assertj-core:1.7.0')
     testCompile('org.slf4j:slf4j-simple:1.7.7')
@@ -46,15 +46,5 @@ dependencies {
     compile 'net.serenity-bdd:serenity-core:1.9.9'
     compile 'net.serenity-bdd:serenity-junit:1.9.9'
     compile 'net.serenity-bdd:serenity-cucumber:1.9.5'
-	//compile 'net.serenity-bdd:serenity-cucumber6:2.3.2'
-    
-   
-    
-
 }
-//
-//serenity {
-   // reports = ["single-page-html"]
-//}
-//serenity.console.colors = true
-gradle.startParameter.continueOnFailure = false
+gradle.startParameter.continueOnFailure = true 

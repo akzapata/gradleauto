@@ -1,4 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"CRONOS -> Desacoplamiento","Menu Bienes/ Opcion Lista de requerimientos","SUCCESS","2020-09-09T10:42:06.709-05:00[America/Bogota]","0.0","212.68"
-"MERCURIO -> Desacoplamiento","Menu carnetizacion / Opcion Gestion Carnes","SUCCESS","2020-09-11T14:10:52.167-05:00[America/Bogota]","0.0","37.97"
-"MERCURIO -> Desacoplamiento","Menu Clientes / Opcion Datos basicos clientes","SUCCESS","2020-09-11T14:11:30.137-05:00[America/Bogota]","0.0","46.82"
+"MERCURIO -> Desacoplamiento","Menu carnetizacion / Opcion Gestion Carnes","SUCCESS","2020-09-11T15:10:03.137-05:00[America/Bogota]","0.0","20.07"
+"MERCURIO -> Desacoplamiento","Menu Clientes / Opcion Datos basicos clientes","SUCCESS","2020-09-11T15:10:23.213-05:00[America/Bogota]","0.0","11.57"
