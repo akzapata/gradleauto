@@ -1,0 +1,700 @@
+<!--?xml version='1.0' encoding='utf-8'?--><!DOCTYPE html><html lang="es" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/theme.css?ln=primefaces-eafittheme" /><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/cronos.min.css?ln=css" /><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/cronos.css?ln=css" /><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/eafitResponsive.min.css?ln=css" /><script type="text/javascript" src="/cronos/faces/javax.faces.resource/jquery/jquery.js?ln=primefaces&amp;v=5.2"></script><script type="text/javascript" src="/cronos/faces/javax.faces.resource/jquery/jquery-plugins.js?ln=primefaces&amp;v=5.2"></script><script type="text/javascript" src="/cronos/faces/javax.faces.resource/primefaces.js?ln=primefaces&amp;v=5.2"></script><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/primefaces.css?ln=primefaces&amp;v=5.2" /><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/scrollpanel/scrollpanel.css?ln=primefaces&amp;v=5.2" /><script type="text/javascript" src="/cronos/faces/javax.faces.resource/scrollpanel/scrollpanel.js?ln=primefaces&amp;v=5.2"></script><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/primefaces-extensions.css?ln=primefaces-extensions&amp;v=3.2.0" /><script type="text/javascript" src="/cronos/faces/javax.faces.resource/primefaces-extensions.js?ln=primefaces-extensions&amp;v=3.2.0"></script><script type="text/javascript" src="/cronos/faces/javax.faces.resource/inputnumber/inputnumber.js?ln=primefaces-extensions&amp;v=3.2.0"></script><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/fileupload/fileupload.css?ln=primefaces&amp;v=5.2" /><script type="text/javascript" src="/cronos/faces/javax.faces.resource/fileupload/fileupload.js?ln=primefaces&amp;v=5.2"></script><script type="text/javascript">if(window.PrimeFaces){}</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta description="Sistema de gestión de datos" />
+    <meta name="author" content="Universidad EAFIT" />
+    <link rel="shortcut icon" type="image/x-icon" href="/cronos/faces/javax.faces.resource/images/favicon.ico" /><script type="text/javascript" src="/cronos/faces/javax.faces.resource/calendar_es.js?ln=js"></script><script type="text/javascript" src="/cronos/faces/javax.faces.resource/generalCRONOS.js?ln=js"></script>
+    
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css" />
+    <link href="//fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" type="text/css" />
+    <link href="//fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css" />
+    <title>CRONOS - Universidad EAFIT</title>
+    <script>
+        function toggleMenu(){
+          $('#menu-lateral').toggleClass('menu-lat-toggled');
+          $('#pagContenido').toggleClass('panelContCollapsed');
+        }
+    </script></head>
+<body onkeypress="return pulsar(event)" style="">
+
+<header id="cabezote" class="Header container">
+    <div class="row col-xs-12">
+        <figure class="Header-logoContainer col-xs-12 col-sm-2">
+            <a class="Header-logoLink" href="http://www.eafit.edu.co" target="_blank">
+            <span class="Header-logoLink"><img src="/cronos/faces/javax.faces.resource/logo-universidad-eafit.png?ln=images" alt="Universidad EAFIT" class="Header-logoImage" />
+            </span>
+            </a>
+        </figure>
+        <hr class="col-xs-12 visible-xs" /><div class="UsersMenu col-xs-12 col-sm-10">
+<form id="j_idt19" name="j_idt19" method="post" action="/cronos/faces/servicios/crxCrearServicio.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt19" value="j_idt19" />
+    
+           
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span> 
+                        Sandra Elena Agudelo Lopez
+                        <span class="caret"></span>
+                    </a>
+                    
+                    <ul class="dropdown-menu" role="menu">
+                        <li>
+                            <a tabindex="0" href="/cronos/faces/usuario/main.xhtml">
+                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span> 
+                            Inicio
+                            </a>
+                        </li>
+                        <li>
+<script type="text/javascript" src="/cronos/faces/javax.faces.resource/jsf.js?ln=javax.faces"></script>
+<a href="#" onclick="mojarra.jsfcljs(document.getElementById('j_idt19'),{'j_idt19:j_idt21':'j_idt19:j_idt21'},'');return false"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Salir</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-1982045083771808668:-4362130062065524370" autocomplete="off" />
+</form></div>
+    </div>
+</header>
+<div id="aplicacion" class="AplicacionContainer">
+    <div class="container">
+        <div class="row">
+            
+            <h1 class="hidden-xs">
+                <a href="/cronos/faces/usuario/main.xhtml">CRONOS - Universidad EAFIT
+                    <small class="hidden-xs"></small>
+                </a>
+            </h1>
+            <div class="AplicacionMenu">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <div class="AplicacionContainer">
+        <div class="container">
+            <div class="row">
+                <div class="AplicacionMenu">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                 
+                                <a class="navbar-brand visible-xs" href="#">CRONOS - Universidad EAFIT</a>
+                            </div>
+<form id="j_idt32" name="j_idt32" method="post" action="/cronos/faces/servicios/crxCrearServicio.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt32" value="j_idt32" />
+
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav">
+                                        <li>
+                                            <a tabindex="0" href="/cronos/faces/usuario/main.xhtml">
+                                                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>Inicio</a>
+                                        </li>
+                                            <li>
+                                                <a href="/cronos/faces/administracion/crxIndexAdmon.xhtml">
+                                                    <span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>Administración</a>
+                                            </li>
+                                            <li>
+                                                <a href="/cronos/faces/bienes/crxIndexBienes.xhtml">
+                                                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Bienes</a>
+                                            </li>
+                                            <li>
+                                                <a href="/cronos/faces/importaciones/crxIndexImportaciones.xhtml">
+                                                    <span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>Importaciones</a>
+                                            </li>
+                                            <li>
+                                                <a href="/cronos/faces/servicios/crxIndexServicios.xhtml">
+                                                    <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>Servicios</a>
+                                            </li>
+                                            <li>
+                                                <a href="/cronos/faces/proveedores/crxIndexProveedores.xhtml">
+                                                    <span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>Proveedores</a>
+                                            </li>
+                                            <li>
+                                                <a href="/cronos/faces/productos/crxIndexProductos.xhtml">
+                                                    <span class="glyphicon glyphicon-barcode" aria-hidden="true"></span>Productos</a>
+                                            </li>
+                                            <li>
+                                                <a href="/cronos/faces/reportes/crxIndexReportes.xhtml">
+                                                    <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>Reportes</a>
+                                            </li>
+                                        <li><a id="j_idt32:j_idt49" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt32:j_idt49&quot;});return false;">
+                                                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                                                Salir
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-1982045083771808668:-4362130062065524370" autocomplete="off" />
+</form>
+                        </div>
+                        
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="UtilidadesContainer noPrint hidden-xs">
+        <div class="container">
+            <div class="row">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="javascript:window.print();">
+                            <span class="glyphicon glyphicon-print" aria-hidden="true"></span>Imprimir</a>
+                    </li>
+                    <li><div id="faqTransversalDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container ui-draggable" style="max-width: 800px; width: auto; height: auto;" role="dialog" aria-labelledby="faqTransversalDialog_title" aria-hidden="true"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span id="faqTransversalDialog_title" class="ui-dialog-title">Preguntas frecuentes</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><div xmlns="http://www.w3.org/1999/xhtml" xmlns:a="http://xmlns.jcp.org/jsf/passthrough"><div id="j_idt54" class="ui-scrollpanel ui-scrollpanel-native ui-widget ui-widget-content ui-corner-all paginaScroll" style="max-height:490px">
+    <div>
+        <div id="container">
+            <div align="justify" class="datalist-noborder">
+<form id="formTransversalFagsDet" name="formTransversalFagsDet" method="post" action="/cronos/faces/servicios/crxCrearServicio.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formTransversalFagsDet" value="formTransversalFagsDet" />
+<div id="formTransversalFagsDet:j_idt56" class="ui-datalist ui-widget"><div id="formTransversalFagsDet:j_idt56_content" class="ui-datalist-content ui-widget-content"><div class="ui-datalist-empty-message">No se encontraron registros.</div></div></div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-1982045083771808668:-4362130062065524370" autocomplete="off" />
+</form>
+                <br />
+            </div>
+        </div>
+    </div></div>
+</div></div></div>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div id="panelMenuCont">
+        
+        <div id="menu-lateral" class="noPrint panelMenuSide">
+            
+            <div id="tab-toggle-menu" onclick="toggleMenu();return false;">
+                <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
+            </div>
+
+<div class="list-group">
+    <span href="#" class="list-group-item titleMenu" onclick="toggleMenu()">
+        Requerimientos
+    </span><a href="/cronos/faces/servicios/crxCrearServicio.xhtml" class="list-group-item">Solicitar requerimiento</a><a href="/cronos/faces/servicios/crxAprobarServicio.xhtml" class="list-group-item">Aprobar requerimiento</a><a href="/cronos/faces/servicios/crxConsultasRequerimientos.xhtml" class="list-group-item">Lista de requerimientos</a><a href="/cronos/faces/servicios/crxConfirmarBienServicioRecibido.xhtml" class="list-group-item">Confirmar bien, importación o servicio recibido</a><a href="/cronos/faces/servicios/crxAutorizarBien.xhtml" class="list-group-item">Autorización para recibir bien, importación o servicio</a><a href="/cronos/faces/servicios/crxConsultarProductosNoConformes.xhtml" class="list-group-item">Consultar casos de productos/servicios no conformes</a><a href="/cronos/faces/servicios/crxIndexServicios.xhtml" class="list-group-item">Volver</a>
+</div>
+
+            
+        </div>
+        
+        
+        <div id="pagContenido" class="panelContent">
+            <div id="contWrapper">
+
+
+<div class="mensajesWrapper" align="center" style="width:70%;margin:0px auto 0px auto;word-wrap: break-word;"><div id="messages" class="ui-messages ui-widget" aria-live="polite"></div>
+</div><div id="j_idt78"></div><div id="idDialogError" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="idDialogError_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span id="idDialogError_title" class="ui-dialog-title">Se ha presentado un inconveniente.</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">    
+    
+    <div class="alert alert-warning" role="alert">
+        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+        <span class="sr-only">Error:</span>Por favor actualice la página.<br />Si el problema persiste favor comuníquese con La Dirección de Informática.
+    </div>
+    
+    <button type="button" class="btn btn-default" onclick="document.location.href = document.location.href;">
+        <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>Actualizar
+    </button></div></div><div id="j_idt84" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="j_idt84_title" aria-hidden="true" aria-live="off" style="width: auto; height: auto; left: 576px; top: 248px; display: none; z-index: 1008;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span id="j_idt84_title" class="ui-dialog-title">Procesando...</span></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">    
+    <div align="center"><img src="/cronos/faces/javax.faces.resource/loader.gif?ln=images" alt="Cargando..." title="Cargando..." />
+    </div></div></div><div xmlns="http://www.w3.org/1999/xhtml">
+<form id="j_idt89" name="j_idt89" method="post" action="/cronos/faces/servicios/crxCrearServicio.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt89" value="j_idt89" />
+
+        <div align="right">
+            <h5><a id="j_idt89:pregunteFrecuente" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt89:pregunteFrecuente&quot;,p:&quot;j_idt89:pregunteFrecuente&quot;,u:&quot;formTransversalFagsDet&quot;,onco:function(xhr,status,args){PF('faqTransversalDialog').show();}});return false;">Preguntas frecuentes <img src="/cronos/faces/javax.faces.resource/images/Help.png" height="16" title="Preguntas frecuentes" width="16" /></a>
+            </h5>
+        </div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-1982045083771808668:-4362130062065524370" autocomplete="off" />
+</form>
+<form id="formServicio" name="formServicio" method="post" action="/cronos/faces/servicios/crxCrearServicio.xhtml" class="form-horizontal" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formServicio" value="formServicio" />
+
+        <h1 align="center">Crear requerimiento de servicio</h1><span id="formServicio:j_idt99"></span>
+        
+        <div style="width:90%;margin: 0 auto;">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="panel-body"><div id="formServicio:mensajeCP" class="ui-panel ui-widget ui-widget-content ui-corner-all tieneAnt" style="display: none;width: 100%;font-weight:bold;color: #3a87ad;background-color: #d9edf7;border-color: #bce8f1;margin-bottom: 20px;" data-widget="widget_formServicio_mensajeCP"><div id="formServicio:mensajeCP_content" class="ui-panel-content ui-widget-content"><span style="color: #3a87ad;"></span></div></div>
+                        
+                        <div class="form-group"><div id="formServicio:panelAyuda" class="ui-outputpanel ui-widget">
+                                <div class="col-sm-2 ">Servicio * 
+                                </div></div>
+                             
+                            <div class="col-sm-4"><span id="formServicio:servicio" class="ui-autocomplete" style="width:100%" role="application"><input id="formServicio:servicio_input" name="formServicio:servicio_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all" autocomplete="off" style="width: 100%" maxlength="60" value=" " aria-required="true" role="textbox" aria-disabled="false" aria-readonly="false" aria-autocomplete="listbox" /><input id="formServicio:servicio_hinput" name="formServicio:servicio_hinput" type="hidden" autocomplete="off" value="3109" /><span role="status" aria-live="polite" class="ui-autocomplete-status ui-helper-hidden-accessible"><div>3 results are available, use up and down arrow keys to navigate</div></span></span>
+                            </div>
+                            
+                            <div><span class="col-sm-2 ">Descripción *</span>
+                            </div>
+                            
+                            <div class="col-sm-4"><textarea id="formServicio:j_idt112" name="formServicio:j_idt112" cols="60" rows="4" maxlength="2000" aria-required="true" class="ui-inputfield ui-inputtextarea ui-widget ui-state-default ui-corner-all form-control" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="true"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="col-sm-3 ">Valor del servicio <button id="formServicio:ayudaValorServicio" name="formServicio:ayudaValorServicio" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only" onclick="return false;;PrimeFaces.ab({s:&quot;formServicio:ayudaValorServicio&quot;});return false;" style="margin-left: 10px;" type="submit" readonly="readonly" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-info"></span><span class="ui-button-text ui-c">ui-button</span></button>
+                            </div>
+                
+                            <div class="col-sm-3"><span id="formServicio:valorServicio" class="ui-inputNum ui-widget inputNumero100p"><input id="formServicio:valorServicio_input" name="formServicio:valorServicio_input" type="text" autocomplete="off" onblur="PrimeFaces.ab({s:&quot;formServicio:valorServicio&quot;,e:&quot;blur&quot;,f:&quot;formServicio&quot;,p:&quot;formServicio:valorServicio&quot;,u:&quot;formServicio:valorServicio formServicio:dejarPendiente formServicio:enviarServicio formServicio:verificarServicio formServicio:panelPresupuesto formServicio:tipoSolicitud formServicio:regsCostos formServicio:panelTotal formServicio:agregarSC&quot;});" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all pe-inputNumber" role="textbox" aria-disabled="false" aria-readonly="false" /><input id="formServicio:valorServicio_hinput" name="formServicio:valorServicio_hinput" type="hidden" autocomplete="off" value="80000" /></span> 
+                            </div>
+                            
+                            <div class="col-sm-2 ">Solicitud compartida * 
+                            </div>
+                            
+                            <div class="col-sm-4"><table id="formServicio:tipoSolicitud" class="ui-selectoneradio ui-widget tipoMoneda"><tbody><tr><td><div class="ui-radiobutton ui-widget"><div class="ui-helper-hidden-accessible"><input id="formServicio:tipoSolicitud:0" name="formServicio:tipoSolicitud" type="radio" value="S" onchange="PrimeFaces.ab({s:&quot;formServicio:tipoSolicitud&quot;,e:&quot;change&quot;,f:&quot;formServicio&quot;,p:&quot;formServicio:tipoSolicitud formServicio:regsCostos&quot;,u:&quot;formServicio:panelNoCompartido formServicio:panelCompartido formServicio:dejarPendiente formServicio:enviarServicio formServicio:verificarServicio&quot;});" /></div><div class="ui-radiobutton-box ui-widget ui-corner-all ui-state-default"><span class="ui-radiobutton-icon ui-icon ui-icon-blank"></span></div></div></td><td><label for="formServicio:tipoSolicitud:0">Si</label></td><td><div class="ui-radiobutton ui-widget"><div class="ui-helper-hidden-accessible"><input id="formServicio:tipoSolicitud:1" name="formServicio:tipoSolicitud" type="radio" value="N" onchange="PrimeFaces.ab({s:&quot;formServicio:tipoSolicitud&quot;,e:&quot;change&quot;,f:&quot;formServicio&quot;,p:&quot;formServicio:tipoSolicitud formServicio:regsCostos&quot;,u:&quot;formServicio:panelNoCompartido formServicio:panelCompartido formServicio:dejarPendiente formServicio:enviarServicio formServicio:verificarServicio&quot;});" checked="checked" /></div><div class="ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active"><span class="ui-radiobutton-icon ui-icon ui-icon-bullet"></span></div></div></td><td><label for="formServicio:tipoSolicitud:1">No</label></td></tr></tbody></table>
+                            </div>
+                        </div>
+                        
+                        <hr /><div id="formServicio:panelCompartido" class="ui-outputpanel ui-widget" style="display: none">
+                            <div class="form-group">
+                                <div class="col-sm-2 ">Tipo de cálculo * 
+                                </div>
+                                
+                                <div class="col-sm-4"><table id="formServicio:tipoCalculo" class="ui-selectoneradio ui-widget tipoMoneda"><tbody><tr><td><div class="ui-radiobutton ui-widget"><div class="ui-helper-hidden-accessible"><input id="formServicio:tipoCalculo:0" name="formServicio:tipoCalculo" type="radio" value="V" onchange="PrimeFaces.ab({s:&quot;formServicio:tipoCalculo&quot;,e:&quot;change&quot;,f:&quot;formServicio&quot;,p:&quot;formServicio:tipoCalculo&quot;,u:&quot;formServicio:regsCostos&quot;});" /></div><div class="ui-radiobutton-box ui-widget ui-corner-all ui-state-default"><span class="ui-radiobutton-icon ui-icon ui-icon-blank"></span></div></div></td><td><label for="formServicio:tipoCalculo:0">Valor</label></td><td><div class="ui-radiobutton ui-widget"><div class="ui-helper-hidden-accessible"><input id="formServicio:tipoCalculo:1" name="formServicio:tipoCalculo" type="radio" value="P" onchange="PrimeFaces.ab({s:&quot;formServicio:tipoCalculo&quot;,e:&quot;change&quot;,f:&quot;formServicio&quot;,p:&quot;formServicio:tipoCalculo&quot;,u:&quot;formServicio:regsCostos&quot;});" checked="checked" /></div><div class="ui-radiobutton-box ui-widget ui-corner-all ui-state-default ui-state-active"><span class="ui-radiobutton-icon ui-icon ui-icon-bullet"></span></div></div></td><td><label for="formServicio:tipoCalculo:1">Porcentaje</label></td></tr></tbody></table>
+                                </div>
+                                
+
+                            </div>
+                            
+                            <div class="form-group">
+                                <h5><div id="formServicio:regsCostos" class="ui-datatable ui-widget"><div id="formServicio:regsCostos_paginator_top" class="ui-paginator ui-paginator-top ui-widget-header ui-corner-top" role="navigation"><span class="ui-paginator-current">0 Registros encontrados, página 1 de 1</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"></span><span class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-end">p</span></span><select id="formServicio:regsCostos_rppDD" class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="10" autocomplete="off"><option value="10" selected="selected">10</option><option value="20">20</option><option value="30">30</option><option value="50">50</option></select></div><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="formServicio:regsCostos_head"><tr role="row"><th id="formServicio:regsCostos:j_idt133" class="ui-state-default" role="columnheader" style="width:120px;"><span class="ui-column-title">Opciones</span></th><th id="formServicio:regsCostos:j_idt135" class="ui-state-default ui-sortable-column" role="columnheader" style="width:200px;" tabindex="0"><span class="ui-column-title">Centro de costos</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formServicio:regsCostos:j_idt139" class="ui-state-default ui-sortable-column" role="columnheader" style="width:200px;" tabindex="0"><span class="ui-column-title">Cuenta contable</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formServicio:regsCostos:j_idt142" class="ui-state-default ui-sortable-column" role="columnheader" style="width:200px;" tabindex="0"><span class="ui-column-title">Ordenador</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formServicio:regsCostos:j_idt145" class="ui-state-default" role="columnheader" style="width:80px;"><span class="ui-column-title">% Valor</span></th><th id="formServicio:regsCostos:j_idt146" class="ui-state-default" role="columnheader" style="width:180px;"><span class="ui-column-title">Valor</span></th><th id="formServicio:regsCostos:j_idt147" class="ui-state-default" role="columnheader" style="width:120px;"><span class="ui-column-title">Presupuesto</span></th></tr></thead><tbody id="formServicio:regsCostos_data" class="ui-datatable-data ui-widget-content"><tr class="ui-widget-content ui-datatable-empty-message"><td colspan="7">No se encontraron registros.</td></tr></tbody></table></div><div id="formServicio:regsCostos_paginator_bottom" class="ui-paginator ui-paginator-bottom ui-widget-header ui-corner-bottom" role="navigation"><span class="ui-paginator-current">0 Registros encontrados, página 1 de 1</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"></span><span class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-end">p</span></span><select id="formServicio:regsCostos_rppDD" class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="10" autocomplete="off"><option value="10" selected="selected">10</option><option value="20">20</option><option value="30">30</option><option value="50">50</option></select></div></div>
+                                    
+                                    <br /><div id="formServicio:panelTotal" class="ui-outputpanel ui-widget">
+                                        <div align="right" style="width: 100%"><span style="text-align:right;font-weight:bold">% Valor total: </span><span style="text-align:right;font-weight:bold">0 %</span><span style="text-align:right;font-weight:bold;margin-left: 10px;">Valor total: </span><span style="text-align:right;font-weight:bold">$ 0</span>
+                                        </div></div><button id="formServicio:agregarSC" name="formServicio:agregarSC" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;formServicio:agregarSC&quot;,p:&quot;formServicio:agregarSC formServicio:regsCostos&quot;,u:&quot;formServicio:regsCostos formServicio:valorServicio&quot;});return false;" title="Permite agregar un nuevo registro a la tabla de centro de costos" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-plus"></span><span class="ui-button-text ui-c">Agregar</span></button>
+                                </h5>
+                            </div></div><div id="formServicio:panelNoCompartido" class="ui-outputpanel ui-widget" style="display: ">
+                            <div class="form-group">
+                                <div class="col-sm-2 ">Centro de costos * 
+                                </div>
+                    
+                                <div class="col-sm-4"><span id="formServicio:centroCostos" class="ui-autocomplete" style="width:100%" role="application"><input id="formServicio:centroCostos_input" name="formServicio:centroCostos_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-focus" autocomplete="off" style="width: 100%" maxlength="60" value=" " aria-required="true" role="textbox" aria-disabled="false" aria-readonly="false" aria-autocomplete="listbox" /><input id="formServicio:centroCostos_hinput" name="formServicio:centroCostos_hinput" type="hidden" autocomplete="off" value=" 150115" /><span role="status" aria-live="polite" class="ui-autocomplete-status ui-helper-hidden-accessible"><div>2 results are available, use up and down arrow keys to navigate</div></span></span>
+                                </div><span class="col-sm-2 ">Cuenta contable * </span>
+                                
+                                <div class="col-sm-4"><select id="formServicio:cuentaContable" name="formServicio:cuentaContable" class="form-control" size="1" disabled="disabled">	<option>Seleccione</option>
+</select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="col-sm-2 ">Ordenador * 
+                                </div>
+                                
+                                <div class="col-sm-4"><select id="formServicio:ordenadorCostos" name="formServicio:ordenadorCostos" class="form-control" size="1" disabled="disabled">	<option value="5123eb03-b129-422d-9aaf-220db4087391">Seleccione</option>
+</select>
+                                </div><span class="col-sm-2 ">Presupuesto </span>
+                                <div class="col-sm-4"><div id="formServicio:panelPresupuesto" class="ui-outputpanel ui-widget">
+                                        <div align="left">
+                                        </div></div>
+                                </div>
+                            </div></div>
+                        
+                        <hr />
+                        
+                        <div class="form-group">
+                            <div class="col-sm-2 ">Ubicación * <button id="formServicio:ayudaUbicacion" name="formServicio:ayudaUbicacion" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only" onclick="return false;;PrimeFaces.ab({s:&quot;formServicio:ayudaUbicacion&quot;});return false;" type="submit" readonly="readonly" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-info"></span><span class="ui-button-text ui-c">ui-button</span></button>
+                            </div>
+                            
+                            <div class="col-sm-4"><div id="formServicio:j_idt187" class="ui-selectonemenu ui-widget ui-state-default ui-corner-all form-control selectOneMenu" style="width:100%"><div class="ui-helper-hidden-accessible"><input id="formServicio:j_idt187_focus" name="formServicio:j_idt187_focus" type="text" autocomplete="off" /></div><div class="ui-helper-hidden-accessible"><select id="formServicio:j_idt187_input" name="formServicio:j_idt187_input" tabindex="-1"><option value="a1e89fc4-eb9a-452d-b612-83c3402806db">Seleccione</option><option value="1458a453-8de4-465f-961a-a48011559f89">B 13 PISO 1</option><option value="0c488fc0-7aed-4262-ad03-5b52a5aef121">B 13 PISO 2</option><option value="38d51310-e396-4bce-a390-0c37fc345fc5">B 13 PISO 3</option><option value="0eb1e44c-c0e2-491e-b1d6-869c148ce50a">B 13 PISO 4</option><option value="04f90986-dc01-4867-9ffa-400ef7823743">B 14 PISO 1</option><option value="3191a97e-7f93-42de-bde1-2116b60072b5">B 14 PISO 2</option><option value="ee036687-7a18-4cae-b16d-734c0ec3e5ce">B 14 PISO 3</option><option value="58f589f2-3d2a-4186-8805-f22892369186">B 14 PISO 4</option><option value="f7f9daff-1923-49d4-af35-de101477bb4f">B 15 PISO 1</option><option value="83ae3df9-806c-48a5-b12e-48a0eb278caf">B 15 PISO 2</option><option value="76668bcf-157b-4ba8-93af-cca2aca2a9d4">B 16 PISO 1</option><option value="2f7739ec-913f-421e-bcd7-aaee995c9326">B 17 PISO 1</option><option value="aaf29e9a-72bd-4297-8c26-5dd63adf1810">B 18 PISO 2</option><option value="09d6344c-6558-4260-87e4-26b3ac5b67c1">B 18 PISO 3</option><option value="8a9817ef-18c1-421a-ab46-6e80dd8dd0d2">B 18 PISO 4</option><option value="804932cd-28ad-4f48-934d-1880117d5577">B 18 PISO 5</option><option value="16c8d756-9fa6-45ca-b0ec-eda686e7587f">B 18 PISO 6</option><option value="71740af3-39ed-497e-be7b-342ba6497206">B 18 PISO 7</option><option value="da37f28b-6e06-4791-9d4a-a64dca870ce6">B 18 PISO 8</option><option value="0bc61be0-05ff-4cf6-bd72-5ea57a4a47c8">B 19 MEZANINE</option><option value="34bb524c-1c34-4767-8e80-667d6bbba2b0">B 19 PISO 1</option><option value="f2db62fb-d469-44a7-a315-84a9a3e21e1e">B 19 PISO 2</option><option value="e931e36f-13fd-4956-acd8-7d759afe1345">B 19 PISO 3</option><option value="0ac6759d-4f92-4e9f-ad4e-c4a51b75d7f2">B 19 PISO 4</option><option value="6ecb31a3-f0fa-4514-b724-07d1d9250450">B 19 PISO 5</option><option value="f9802277-7598-4f39-a450-05f8b8cba29b">B 19 PISO 6</option><option value="29de9eef-f650-4164-a8ac-432fc6e45bc8">B 19 PISO 7</option><option value="0a1a4bf5-3cfc-4dc4-9133-2397f7eb3006">B 19 PISO 8</option><option value="c558fb12-2595-41a5-a7ba-04b4431f3e86">B 19 SOTANO</option><option value="c0ea519c-76b3-4a1a-96ab-b0a3547ff711">B 20 PISO 1</option><option value="676d5d07-a274-45a0-956b-5e641be1dfa7">B 21 PISO 1</option><option value="af911dca-10a2-453a-990d-3b1a35d286e2">B 21 PISO 2</option><option value="0d2c8cd7-66c5-4513-97c2-cf34b2ed76fa">B 21 PISO 3</option><option value="b69a962e-4b60-43d3-b914-dd6e440f71b5">B 22 PISO 1</option><option value="b78d4261-519c-4cf4-95bf-8612fbf660dc">B 23 PISO 1</option><option value="418f50f8-e259-4494-a6d2-dd0a2d9e16b5">B 26 PISO 1</option><option value="039b9b18-fba9-4870-b1ac-9fe5ac0c7452">B 26 PISO 2</option><option value="e4818d8b-c6db-4171-a0f5-338c47341954">B 26 PISO 3</option><option value="272a84fb-1e11-47ba-a116-d279a2a8885a">B 26 PISO 4</option><option value="dac5ca0b-05ff-4118-b8e1-f0d4b5d5fa5a">B 26 PISO 5</option><option value="91a24e74-262d-4d74-a324-5971f8222cae">B 26 PISO 6</option><option value="2ca51284-bd1c-4d89-9b90-ec38bf1d748e">B 26 PISO 7</option><option value="becb9fd4-e03f-4e32-ac04-5209b4ac6930">B 26 PISO 8</option><option value="8ce19c37-2515-4d46-a42b-e052c0184cae">B 27 PISO 1</option><option value="b086d98e-4e32-476f-afbd-6fe352fcbe95">B 27 PISO 4</option><option value="1d462876-88a6-4fa6-a34c-37cca88abc25">B 27 PISO 5</option><option value="5cca7167-d00c-4ea3-ae86-fc3c0282e164">B 29 PISO 1</option><option value="0acd2250-5e4b-4144-bc8e-6f5ab2cdc2ae">B 29 PISO 3</option><option value="643455df-7a1f-40e9-aec6-a5661c4b66bc">B 29 PISO 4</option><option value="d043331a-cf20-4a2b-b1ef-0d0b2d7b30c1">B 29 PISO 5</option><option value="e1952fee-7da1-42db-bed6-c67e4b247c03">B 3 PISO 1</option><option value="0d653bca-e1af-43dc-bb32-bef2492f7f4e">B 3 PISO 2</option><option value="d6ad3c92-068d-43c3-ba84-a5a22c6e5277">B 3 PISO 3</option><option value="a53120f7-dfa9-49c7-819d-b15e10298ada">B 30 PISO 1</option><option value="b7e44810-a264-463a-91ef-2d2fac611ecd">B 30 PISO 2</option><option value="aececeec-259a-4026-8fe5-04294e5e337f">B 32 PISO 1</option><option value="58ba647a-5e16-4aaa-a6c7-5e74e6ed7eaa">B 32 PISO 2</option><option value="9ae56702-c5e5-433f-8801-76a64e9c2b19">B 32 PISO 3</option><option value="dc613d18-242e-42bc-8ed9-cc9c2c48436f">B 32 PISO 4</option><option value="10e8e173-6693-4336-810a-158c9821f7e3">B 38 PISO 1</option><option value="da65a58b-3f53-4fd5-92f4-cfa2e15b2429">B 38 PISO 2</option><option value="5e2bed37-ecaf-467c-8740-b265ca4c8fcd">B 38 PISO 3</option><option value="7a8109f4-1534-4078-99a6-65040816005b">B 38 PISO 4</option><option value="11eb0c26-2921-414f-a1bf-d7ac84c1eec7">B 38 PISO 5</option><option value="a2e42ef9-1e49-4dfe-a496-92df675b8e33">B 7 PISO 1</option><option value="b8d4d4a7-d5be-440e-9199-d6205b9c6fd7" selected="selected">B 7 PISO 2</option><option value="fd1a8d31-65f4-4cf0-9dde-59d8f8c2e452">Bloque 1 G idiomas </option><option value="848c20ee-00b9-4896-b1ef-b060def748d7">Bloque 1 G idiomas </option><option value="1d4c0b43-5255-418e-b043-73635e16c7b3">Bloque 1 G idiomas </option><option value="fbe74495-786f-4304-b8c3-93daa7bb1d09">Bloque 1 G idiomas PISO 1</option><option value="5dd9e644-4a23-416e-92f6-421678bc2d2a">Bloque 1 G idiomas PISO 2</option><option value="6c56718e-4c14-433c-a32a-643d6cf4015f">Bloque 1 G idiomas PISO 3</option><option value="80132074-c23c-4edb-b3cb-d8c24081962c">Bloque 1 G idiomas PISO 4</option><option value="a08fe746-cc66-409b-92b8-bdf977ebedd6">Bloque 1 G idiomas PISO 5</option><option value="fd4e7cc1-3664-4440-b31e-592961227624">CASA 1 ATENEA  </option><option value="c9648091-e8c9-4eba-b319-2bef49256e2e">CASA 10</option><option value="56052147-569d-4eb3-9dd1-991609f40501">CASA 2 Postgrados y Doctorados </option><option value="d802ce3f-6cde-41bf-b101-59b7ac83674c">CASA 3 Desarrollo Artistico </option><option value="9ff36cf6-9d21-45cb-b3fe-3caad2a93253">CASA 4 Consultorio Juridico </option><option value="501d973b-a57f-44c4-8396-18c197db0e22">CASA 5 Instituto Confucio </option><option value="8ddba6f4-b873-4d12-b02f-b9fa4297a62c">CASA 6 INNOVACION </option><option value="efaf0afd-69f7-43ab-abb8-0f7589d27743">CASA 7 URBAM </option><option value="52d5bc1b-1d5c-48fe-a1fa-124da9cce3c8">CASA 8 Centro de Egresados/ Corporacion Amigos Eafit </option><option value="17b88183-5f74-4ea4-8546-cca60478a014">CASA 9 UNIV DE LOS NIÑOS</option><option value="8181cf7b-700d-4a82-938a-9c28aa23059e">Idiomas Colegio San Carlos </option><option value="201542ea-cd87-4134-80cd-fdfa7deed721">Idiomas Colegio San Jose </option><option value="2ec37bc0-920a-4fa0-8730-44f9d8a8daad">Idiomas Laureles </option><option value="e89b54a6-e584-46e6-a080-1528035651d8">Idiomas Los Balsos </option><option value="abc5bb82-b526-496a-ba30-8046eb6e2261">Sede Bogota </option><option value="c19a64d5-8134-4b83-a24e-6e8983bc114c">Sede Llanogrande </option><option value="6185199a-a44b-4999-a273-c9d23e82f1b3">Sede Mayorca </option><option value="fc7a1c9e-ea68-46fb-9f0e-6ae2611167f9">Sede Pereira </option></select></div><label id="formServicio:j_idt187_label" class="ui-selectonemenu-label ui-inputfield ui-corner-all" style="width: 243px;">B 7 PISO 2</label><div class="ui-selectonemenu-trigger ui-state-default ui-corner-right"><span class="ui-icon ui-icon-triangle-1-s ui-c"></span></div></div>
+                            </div><span class="col-sm-2 ">Correo electrónico solicitante </span>
+                            <div class="col-sm-4"><input id="formServicio:email" type="text" name="formServicio:email" value="sagudel7@eafit.edu.co" class="form-control" readonly="readonly" />
+                            </div>
+                        </div>
+                        
+                        <hr /><div id="formServicio:panelNoCotizable" class="ui-outputpanel ui-widget" style="display: none">
+                            <div class="form-group">
+                                <div class="col-sm-2 ">Moneda * 
+                                </div>
+                                
+                                <div class="col-sm-4 "><select id="formServicio:j_idt197" name="formServicio:j_idt197" class="form-control" size="1" style="width:150px" onchange="PrimeFaces.ab({s:this,e:&quot;change&quot;,f:&quot;formServicio&quot;,p:&quot;formServicio:j_idt197&quot;,u:&quot;formServicio:valorTCambio&quot;});">	<option value="ee4038c0-46c6-4c9d-af64-696ade508f9f">Dólares</option>
+	<option value="e1107543-2795-4a37-b154-048f34e3311a">Euros</option>
+	<option value="57a97a81-d27e-4ccf-bc20-b426af3f5922" selected="selected">Pesos</option>
+</select>
+                                </div>
+                                
+                                <div class="col-sm-2 ">Tasa de cambio 
+                                </div>
+                                
+                                <div class="col-sm-4 "><span id="formServicio:valorTCambio" style="font-weight: bold">$ 1</span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="col-sm-2 ">Número de cotización 
+                                </div>
+                                
+                                <div class="col-sm-4 "><input type="text" name="formServicio:j_idt205" autocomplete="off" class="form-control" maxlength="50" />
+                                </div>
+                                
+                                <div class="col-sm-2 ">Fecha prestación del servicio * 
+                                </div>
+                                
+                                <div class="col-sm-4 "><span id="formServicio:j_idt209"><input id="formServicio:j_idt209_input" name="formServicio:j_idt209_input" type="text" class="ui-inputfield ui-widget ui-state-default ui-corner-all hasDatepicker" readonly="readonly" role="textbox" aria-disabled="false" aria-readonly="true" /></span>
+                                </div>
+
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="col-sm-2 ">Proveedor * <button id="formServicio:ayudaProveedor" name="formServicio:ayudaProveedor" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only" onclick="return false;;PrimeFaces.ab({s:&quot;formServicio:ayudaProveedor&quot;});return false;" type="submit" readonly="readonly" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-info"></span><span class="ui-button-text ui-c">ui-button</span></button>
+                                </div>
+                                
+                                <div class="col-sm-4 "><span id="formServicio:proveedoresNit" class="ui-autocomplete" style="width: 100%!important;" role="application"><input id="formServicio:proveedoresNit_input" name="formServicio:proveedoresNit_input" type="text" class="ui-autocomplete-input ui-inputfield ui-widget ui-state-default ui-corner-all" autocomplete="off" style="width: 100%!important;" maxlength="150" value=" " role="textbox" aria-disabled="false" aria-readonly="false" aria-autocomplete="listbox" /><input id="formServicio:proveedoresNit_hinput" name="formServicio:proveedoresNit_hinput" type="hidden" autocomplete="off" /><span role="status" aria-live="polite" class="ui-autocomplete-status ui-helper-hidden-accessible"></span></span>
+                                </div>
+                                
+                                <div class="col-sm-2 ">Correo electrónico proveedor * 
+                                </div>
+
+                                <div class="col-sm-4 "><input id="formServicio:correoProveedor" type="text" name="formServicio:correoProveedor" autocomplete="off" class="form-control" maxlength="150" onblur="this.value=this.value.toUpperCase();" disabled="disabled" />
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="col-sm-2 ">Teléfono del proveedor  * 
+                                </div>
+                                
+                                <div class="col-sm-4"><input id="formServicio:telefonoProveedor" type="text" name="formServicio:telefonoProveedor" autocomplete="off" class="form-control" maxlength="15" disabled="disabled" />
+                                </div>
+                                
+                                <div class="col-sm-2 ">Forma de pago * 
+                                </div>
+                                
+                                <div class="col-sm-4"><select name="formServicio:j_idt223" class="form-control" size="1">	<option value="a1e89fc4-eb9a-452d-b612-83c3402806db">Seleccione</option>
+	<option value="64a7a2d3-2ed2-4fac-a0f8-60dec0efbfea">PLAZO A 8 DIAS</option>
+	<option value="b4714048-42f0-4fee-87f0-fbca52c35472">PLAZO A 10 DIAS</option>
+	<option value="418391f4-3460-44e1-89ab-182b02db67f1">PLAZO A 15 DIAS</option>
+	<option value="77a6f5ca-58fa-4f86-ab8d-b565d1ede4ae">PAGO A 20 DIAS</option>
+	<option value="3cc4d7b8-f643-4c46-91d4-ed1570587551">PLAZO A 30 DIAS</option>
+	<option value="c2b83459-feb0-4b95-83e3-eebc08c31fb0">PLAZO A 45 DIAS</option>
+	<option value="b30d038d-1990-4381-95a5-4e0b55e298c3">PLAZO A 60 DIAS</option>
+	<option value="f566d2b1-c0f8-4dd7-af98-f0106646a091" selected="selected">PLAZO A 35 DIAS</option>
+	<option value="e3b6c144-f966-4f23-b81c-cfb6bf4e85c4">ANTICIPO 40%</option>
+	<option value="3d0344bb-683e-47d1-812e-2acb5ec57856">ANTICIPO 30%</option>
+	<option value="c2cb4f88-564c-45ac-8806-cf96669656a2">ANTICIPO 50%</option>
+</select>
+                                </div>
+                            </div></div><div id="formServicio:panelCotizable" class="ui-outputpanel ui-widget" style="display: ">
+                            <div class="form-group">
+                                <div class="col-sm-2 ">Proveedor sugerido 
+                                </div>
+                                
+                                <div class="col-sm-4"><input type="text" name="formServicio:j_idt230" autocomplete="off" class="form-control" maxlength="150" />
+                                </div>
+                            </div></div>
+                        
+                        <div class="form-group">
+                            <div class="col-sm-12"><button id="formServicio:j_idt233" name="formServicio:j_idt233" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;formServicio:j_idt233&quot;,p:&quot;formServicio:j_idt233&quot;,u:&quot;archivosDialog&quot;,onco:function(xhr,status,args){PF('archivosDialog').show();}});return false;" title="Adjuntar archivos" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-document"></span><span class="ui-button-text ui-c">Adjuntar archivos</span></button>
+                            </div>
+                        </div>
+                        
+                        <br />
+                        
+                         <div class="form-group"><button id="formServicio:dejarPendiente" name="formServicio:dejarPendiente" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" data-pfconfirmcommand="PrimeFaces.bcn(this,event,[function(event){PrimeFaces.ab({s:&quot;formServicio:dejarPendiente&quot;,p:&quot;formServicio&quot;,u:&quot;formServicio&quot;,onco:function(xhr,status,args){javascript:window.location='#messages';;}});return false;}]);" onclick="PrimeFaces.confirm({source:&quot;formServicio:dejarPendiente&quot;,header:&quot;Confirmación&quot;,message:&quot;Su requerimiento quedará pendiente ¿Está seguro?&quot;,icon:&quot;ui-icon-alert&quot;});return false;" title="Guardar temporalmente el requerimiento" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-disk"></span><span class="ui-button-text ui-c">Dejar pendiente</span></button><button id="formServicio:verificarServicio" name="formServicio:verificarServicio" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left ui-state-disabled" onclick="PrimeFaces.ab({s:&quot;formServicio:verificarServicio&quot;,p:&quot;formServicio&quot;,u:&quot;consultaServicio&quot;,onco:function(xhr,status,args){if (args &amp;&amp; !args.validationFailed &amp;&amp; args.guardar){ PF('consultarDetServicio').show()}javascript:window.location='#messages';;}});return false;" title="Permite visualizar el requerimiento antes de enviar a aprobación" type="submit" disabled="disabled" role="button" aria-disabled="true"><span class="ui-button-icon-left ui-icon ui-c ui-icon-search"></span><span class="ui-button-text ui-c">Verificar</span></button><button id="formServicio:enviarServicio" name="formServicio:enviarServicio" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left ui-state-disabled" data-pfconfirmcommand="PrimeFaces.bcn(this,event,[function(event){PrimeFaces.ab({s:&quot;formServicio:enviarServicio&quot;,p:&quot;formServicio&quot;,u:&quot;formServicio&quot;,onco:function(xhr,status,args){javascript:window.location='#messages';;}});return false;}]);" onclick="PrimeFaces.confirm({source:&quot;formServicio:enviarServicio&quot;,header:&quot;Confirmación&quot;,message:&quot;Se va a enviar su requerimiento. ¿Está seguro?&quot;,icon:&quot;ui-icon-alert&quot;});return false;" title="Enviar requerimiento a aprobación" type="submit" disabled="disabled" role="button" aria-disabled="true"><span class="ui-button-icon-left ui-icon ui-c ui-icon-check"></span><span class="ui-button-text ui-c">Enviar</span></button>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div><div id="formServicio:enviarOrdenSNC" class="ui-confirm-dialog ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="formServicio:enviarOrdenSNC_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span class="ui-dialog-title">Confirmación</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><span class="ui-icon ui-icon-alert ui-confirm-dialog-severity"></span><span class="ui-confirm-dialog-message"></span></div><div class="ui-dialog-buttonpane ui-dialog-footer ui-widget-content ui-helper-clearfix"><button id="formServicio:j_idt237" name="formServicio:j_idt237" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PrimeFaces.ab({s:&quot;formServicio:j_idt237&quot;,p:&quot;formServicio&quot;,u:&quot;formServicio&quot;,onco:function(xhr,status,args){PF('enviarOrdenSNCW').hide();;}});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-text ui-c">Sí</span></button><button id="formServicio:j_idt238" name="formServicio:j_idt238" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PF('enviarOrdenSNCW').hide();;" type="button" role="button" aria-disabled="false"><span class="ui-button-text ui-c">No</span></button></div></div><div id="formServicio:cancelarDetSer" class="ui-confirm-dialog ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="formServicio:cancelarDetSer_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span class="ui-dialog-title">Cancelar</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><span class="ui-icon ui-icon-alert ui-confirm-dialog-severity"></span><span class="ui-confirm-dialog-message">¿Está seguro de cancelar la operación?</span></div><div class="ui-dialog-buttonpane ui-dialog-footer ui-widget-content ui-helper-clearfix"><button id="formServicio:j_idt239" name="formServicio:j_idt239" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PF('cancelarDetSerW').hide();PF('consultarDetServicio').hide();;PrimeFaces.ab({s:&quot;formServicio:j_idt239&quot;,p:&quot;formServicio:j_idt239&quot;});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-text ui-c">Sí</span></button><button id="formServicio:j_idt240" name="formServicio:j_idt240" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PF('cancelarDetSerW').hide();;" type="button" role="button" aria-disabled="false"><span class="ui-button-text ui-c">No</span></button></div></div><div id="formServicio:cancelarDetErr" class="ui-confirm-dialog ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="formServicio:cancelarDetErr_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span class="ui-dialog-title">Cancelar</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><span class="ui-icon ui-icon-alert ui-confirm-dialog-severity"></span><span class="ui-confirm-dialog-message">¿Está seguro de cancelar la operación?</span></div><div class="ui-dialog-buttonpane ui-dialog-footer ui-widget-content ui-helper-clearfix"><button id="formServicio:j_idt241" name="formServicio:j_idt241" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PF('cancelarDetErrW').hide();PF('detErroresDialog').hide();;PrimeFaces.ab({s:&quot;formServicio:j_idt241&quot;,p:&quot;formServicio:j_idt241&quot;});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-text ui-c">Sí</span></button><button id="formServicio:j_idt242" name="formServicio:j_idt242" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PF('cancelarDetErrW').hide();;" type="button" role="button" aria-disabled="false"><span class="ui-button-text ui-c">No</span></button></div></div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-1982045083771808668:-4362130062065524370" autocomplete="off" />
+</form><div id="consultarDetServicio" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container ui-draggable" role="dialog" aria-labelledby="consultarDetServicio_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span id="consultarDetServicio_title" class="ui-dialog-title">Detalle requerimiento</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><div id="servicioDetail" class="ui-outputpanel ui-widget"><div id="j_idt246" class="ui-messages ui-widget" aria-live="polite"></div><div xmlns="http://www.w3.org/1999/xhtml">
+     
+     <div class="container"><div id="j_idt248" class="ui-scrollpanel ui-scrollpanel-native ui-widget ui-widget-content ui-corner-all paginaScroll" style="max-height:490px;overflow-x: hidden !important;">
+<form id="consultaServicio" name="consultaServicio" method="post" action="/cronos/faces/servicios/crxCrearServicio.xhtml" class="form-horizontal" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="consultaServicio" value="consultaServicio" />
+
+                <table class="tabla">
+                </table>
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Solicitante 
+                            </th>
+                            <td>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="panel-body">
+                            <div class="form-group"><div id="consultaServicio:panelAyuda" class="ui-outputpanel ui-widget">
+                                    <div class="col-sm-2 ">Servicio 
+                                    </div></div>
+                                 
+                                <div class="col-sm-4"><input type="text" name="consultaServicio:j_idt259" value=" " class="form-control" readonly="readonly" />
+                                </div>
+                                
+                                <div><span class="col-sm-2 ">Descripción </span>
+                                </div>
+                                
+                                <div class="col-sm-4"><textarea id="consultaServicio:j_idt263" name="consultaServicio:j_idt263" cols="60" rows="4" maxlength="2147483647" readonly="readonly" class="ui-inputfield ui-inputtextarea ui-widget ui-state-default ui-corner-all form-control" role="textbox" aria-disabled="false" aria-readonly="true" aria-multiline="true"></textarea>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="col-sm-3 ">Valor del servicio <button id="consultaServicio:ayudaValorServicio" name="consultaServicio:ayudaValorServicio" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only" onclick="return false;;PrimeFaces.ab({s:&quot;consultaServicio:ayudaValorServicio&quot;});return false;" style="margin-left: 10px;" type="submit" readonly="readonly" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-info"></span><span class="ui-button-text ui-c">ui-button</span></button>
+                                </div>
+                    
+                                <div class="col-sm-3"><span id="consultaServicio:j_idt267" class="ui-inputNum ui-widget inputNumero100p"><input id="consultaServicio:j_idt267_input" name="consultaServicio:j_idt267_input" type="text" readonly="readonly" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all pe-inputNumber" role="textbox" aria-disabled="false" aria-readonly="true" /><input id="consultaServicio:j_idt267_hinput" name="consultaServicio:j_idt267_hinput" type="hidden" autocomplete="off" /></span> 
+                                </div>
+                                
+                                <div class="col-sm-2 ">Solicitud compartida 
+                                </div>
+                                
+                                <div class="col-sm-4">No 
+                                </div>
+                            </div>
+                            
+                            <hr />
+
+                            <div class="form-group">
+                                <h5><div id="consultaServicio:regsCostos" class="ui-datatable ui-widget"><div id="consultaServicio:regsCostos_paginator_top" class="ui-paginator ui-paginator-top ui-widget-header ui-corner-top" role="navigation"><span class="ui-paginator-current">0 Registros encontrados, página 1 de 1</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"></span><span class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-end">p</span></span><select id="consultaServicio:regsCostos_rppDD" class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="10" autocomplete="off"><option value="10" selected="selected">10</option><option value="20">20</option><option value="30">30</option><option value="50">50</option></select></div><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="consultaServicio:regsCostos_head"><tr role="row"><th id="consultaServicio:regsCostos:j_idt273" class="ui-state-default ui-sortable-column" role="columnheader" style="width:200px;" tabindex="0"><span class="ui-column-title">Centro de costos</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="consultaServicio:regsCostos:j_idt275" class="ui-state-default ui-sortable-column" role="columnheader" style="width:200px;" tabindex="0"><span class="ui-column-title">Cuenta contable</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="consultaServicio:regsCostos:j_idt277" class="ui-state-default ui-sortable-column" role="columnheader" style="width:200px;" tabindex="0"><span class="ui-column-title">Ordenador</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="consultaServicio:regsCostos:j_idt279" class="ui-state-default ui-sortable-column" role="columnheader" style="width:90px;" tabindex="0"><span class="ui-column-title">% Valor</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="consultaServicio:regsCostos:j_idt281" class="ui-state-default ui-sortable-column" role="columnheader" style="width:180px;" tabindex="0"><span class="ui-column-title">Valor</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="consultaServicio:regsCostos:j_idt283" class="ui-state-default ui-sortable-column" role="columnheader" style="width:120px;" tabindex="0"><span class="ui-column-title">Estado</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th></tr></thead><tbody id="consultaServicio:regsCostos_data" class="ui-datatable-data ui-widget-content"><tr class="ui-widget-content ui-datatable-empty-message"><td colspan="6">No se encontraron registros.</td></tr></tbody></table></div><div id="consultaServicio:regsCostos_paginator_bottom" class="ui-paginator ui-paginator-bottom ui-widget-header ui-corner-bottom" role="navigation"><span class="ui-paginator-current">0 Registros encontrados, página 1 de 1</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"></span><span class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-end">p</span></span><select id="consultaServicio:regsCostos_rppDD" class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="10" autocomplete="off"><option value="10" selected="selected">10</option><option value="20">20</option><option value="30">30</option><option value="50">50</option></select></div></div>
+                                    
+                                    <br /><div id="consultaServicio:panelTotal" class="ui-outputpanel ui-widget">
+                                        <div align="right" style="width: 100%"><span style="text-align:right;font-weight:bold">% Valor total: </span><span style="text-align:right;font-weight:bold"></span><span style="text-align:right;font-weight:bold;margin-left: 10px;">Valor total: </span><span style="text-align:right;font-weight:bold"></span>
+                                        </div></div>
+                                </h5>
+                            </div>
+                            
+                            <hr />
+                        
+                            <div class="form-group">
+                                <div class="col-sm-2 ">Ubicación  <button id="consultaServicio:ayudaUbicacion" name="consultaServicio:ayudaUbicacion" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only" onclick="return false;;PrimeFaces.ab({s:&quot;consultaServicio:ayudaUbicacion&quot;});return false;" type="submit" readonly="readonly" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-info"></span><span class="ui-button-text ui-c">ui-button</span></button>
+                                </div>
+                                
+                                <div class="col-sm-4"><input id="consultaServicio:ubicacion" type="text" name="consultaServicio:ubicacion" class="form-control" readonly="readonly" />
+                                </div><span class="col-sm-2 ">Correo electrónico solicitante </span>
+                                <div class="col-sm-4"><input id="consultaServicio:email" type="text" name="consultaServicio:email" class="form-control" readonly="readonly" />
+                                </div>
+                            </div>
+                            
+                            <hr /><div id="consultaServicio:panelNoCotizable" class="ui-outputpanel ui-widget" style="display: none">
+                                <div class="form-group">
+                                    <div class="col-sm-2 ">Moneda  
+                                    </div>
+                                    
+                                    <div class="col-sm-4 "><input type="text" name="consultaServicio:j_idt303" class="form-control" readonly="readonly" />
+                                    </div>
+                                    
+                                    <div class="col-sm-2 ">Tasa de cambio 
+                                    </div>
+                                    
+                                    <div class="col-sm-4 "><span id="consultaServicio:valorTCambio" style="font-weight: bold"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="col-sm-2 ">Número de cotización 
+                                    </div>
+                                    
+                                    <div class="col-sm-4 "><input type="text" name="consultaServicio:j_idt310" class="form-control" readonly="readonly" />
+                                    </div>
+                                    
+                                    <div class="col-sm-2 ">Fecha prestación del servicio * 
+                                    </div>
+                                    
+                                    <div class="col-sm-4 "><span id="consultaServicio:j_idt314"><input id="consultaServicio:j_idt314_input" name="consultaServicio:j_idt314_input" type="text" class="ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-disabled" readonly="readonly" disabled="disabled" role="textbox" aria-disabled="true" aria-readonly="true" /></span>
+                                    </div>
+    
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="col-sm-2 ">Proveedor * <button id="consultaServicio:ayudaProveedor" name="consultaServicio:ayudaProveedor" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only" onclick="return false;;PrimeFaces.ab({s:&quot;consultaServicio:ayudaProveedor&quot;});return false;" type="submit" readonly="readonly" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-info"></span><span class="ui-button-text ui-c">ui-button</span></button>
+                                    </div>
+                                    
+                                    <div class="col-sm-4 "><input type="text" name="consultaServicio:j_idt319" value=" " class="form-control" readonly="readonly" />
+                                    </div>
+                                    
+                                    <div class="col-sm-2 ">Correo electrónico proveedor * 
+                                    </div>
+    
+                                    <div class="col-sm-4 "><input id="consultaServicio:correoProveedor" type="text" name="consultaServicio:correoProveedor" class="form-control" readonly="readonly" />
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="col-sm-2 ">Teléfono del proveedor  * 
+                                    </div>
+                                    
+                                    <div class="col-sm-4"><input id="consultaServicio:telefonoProveedor" type="text" name="consultaServicio:telefonoProveedor" class="form-control" readonly="readonly" />
+                                    </div>
+                                    
+                                    <div class="col-sm-2 ">Forma de pago 
+                                    </div>
+                                    
+                                    <div class="col-sm-4"><select name="consultaServicio:j_idt329" class="form-control" size="1" disabled="disabled">	<option value="64a7a2d3-2ed2-4fac-a0f8-60dec0efbfea">PLAZO A 8 DIAS</option>
+	<option value="b4714048-42f0-4fee-87f0-fbca52c35472">PLAZO A 10 DIAS</option>
+	<option value="418391f4-3460-44e1-89ab-182b02db67f1">PLAZO A 15 DIAS</option>
+	<option value="77a6f5ca-58fa-4f86-ab8d-b565d1ede4ae">PAGO A 20 DIAS</option>
+	<option value="3cc4d7b8-f643-4c46-91d4-ed1570587551">PLAZO A 30 DIAS</option>
+	<option value="c2b83459-feb0-4b95-83e3-eebc08c31fb0">PLAZO A 45 DIAS</option>
+	<option value="b30d038d-1990-4381-95a5-4e0b55e298c3">PLAZO A 60 DIAS</option>
+	<option value="f566d2b1-c0f8-4dd7-af98-f0106646a091" selected="selected">PLAZO A 35 DIAS</option>
+	<option value="e3b6c144-f966-4f23-b81c-cfb6bf4e85c4">ANTICIPO 40%</option>
+	<option value="3d0344bb-683e-47d1-812e-2acb5ec57856">ANTICIPO 30%</option>
+	<option value="c2cb4f88-564c-45ac-8806-cf96669656a2">ANTICIPO 50%</option>
+</select>
+                                    </div>
+                                </div></div><div id="consultaServicio:panelCotizable" class="ui-outputpanel ui-widget" style="display: none">
+                                <div class="form-group">
+                                    <div class="col-sm-2 ">Proveedor sugerido 
+                                    </div>
+                                    
+                                    <div class="col-sm-4"><input type="text" name="consultaServicio:j_idt335" class="form-control" maxlength="150" readonly="readonly" />
+                                    </div>
+                                </div></div>
+                            
+                            <div class="form-group">
+                                <div class="col-sm-12"><button id="consultaServicio:j_idt338" name="consultaServicio:j_idt338" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;consultaServicio:j_idt338&quot;,p:&quot;consultaServicio:j_idt338&quot;,u:&quot;archivosDialog&quot;,onco:function(xhr,status,args){PF('archivosDialog').show();}});return false;" title="Adjuntar archivos" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-document"></span><span class="ui-button-text ui-c">Adjuntar archivos</span></button>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <h2>Listado de modificaciones</h2>
+                        
+                                    <div style="width: 100%;"><div xmlns="http://www.w3.org/1999/xhtml" xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+     
+     <table>
+        <tbody>
+            <tr>
+                <td>
+                    <h5><div id="consultaServicio:tabMod" class="ui-datatable ui-widget reqMod"><div id="consultaServicio:tabMod_paginator_top" class="ui-paginator ui-paginator-top ui-widget-header ui-corner-top" role="navigation"><span class="ui-paginator-current">0 Registros encontrados, página 1 de 1</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"></span><span class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-end">p</span></span><select id="consultaServicio:tabMod_rppDD" class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="10" autocomplete="off"><option value="10" selected="selected">10</option><option value="20">20</option><option value="30">30</option><option value="50">50</option></select><a id="consultaServicio:tabMod:j_idt341" href="#" class="ui-commandlink ui-widget" aria-label="Exportar a excel" onclick="PrimeFaces.addSubmitParam('consultaServicio',{'consultaServicio:tabMod:j_idt341':'consultaServicio:tabMod:j_idt341'}).submit('consultaServicio');return false;" style="float: right;" title="Exportar a excel"><img id="consultaServicio:tabMod:j_idt342" src="/cronos/faces/javax.faces.resource/images/excel.png" alt="" width="24" /></a></div><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="consultaServicio:tabMod_head"><tr role="row"><th id="consultaServicio:tabMod:j_idt343" class="ui-state-default ui-sortable-column ui-filter-column" role="columnheader" style="width:16%" tabindex="0"><span class="ui-column-title">Fecha</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span><input id="consultaServicio:tabMod:j_idt343:filter" name="consultaServicio:tabMod:j_idt343:filter" class="ui-column-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" value="" autocomplete="off" style="width:100%" role="textbox" aria-disabled="false" aria-readonly="false" /></th><th id="consultaServicio:tabMod:j_idt345" class="ui-state-default ui-sortable-column ui-filter-column" role="columnheader" style="width:27%" tabindex="0"><span class="ui-column-title">Usuario</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span><input id="consultaServicio:tabMod:j_idt345:filter" name="consultaServicio:tabMod:j_idt345:filter" class="ui-column-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" value="" autocomplete="off" style="width:100%" role="textbox" aria-disabled="false" aria-readonly="false" /></th><th id="consultaServicio:tabMod:j_idt347" class="ui-state-default ui-sortable-column ui-filter-column" role="columnheader" style="width:15%" tabindex="0"><span class="ui-column-title">Acción</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span><input id="consultaServicio:tabMod:j_idt347:filter" name="consultaServicio:tabMod:j_idt347:filter" class="ui-column-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" value="" autocomplete="off" style="width:100%" role="textbox" aria-disabled="false" aria-readonly="false" /></th><th id="consultaServicio:tabMod:j_idt349" class="ui-state-default ui-sortable-column ui-filter-column" role="columnheader" style="width:42%" tabindex="0"><span class="ui-column-title">Observación</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span><input id="consultaServicio:tabMod:j_idt349:filter" name="consultaServicio:tabMod:j_idt349:filter" class="ui-column-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" value="" autocomplete="off" style="width:100%" role="textbox" aria-disabled="false" aria-readonly="false" /></th></tr></thead><tbody id="consultaServicio:tabMod_data" class="ui-datatable-data ui-widget-content"><tr class="ui-widget-content ui-datatable-empty-message"><td colspan="4">No se encontraron registros.</td></tr></tbody></table></div><div id="consultaServicio:tabMod_paginator_bottom" class="ui-paginator ui-paginator-bottom ui-widget-header ui-corner-bottom" role="navigation"><span class="ui-paginator-current">0 Registros encontrados, página 1 de 1</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"></span><span class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-end">p</span></span><select id="consultaServicio:tabMod_rppDD" class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="10" autocomplete="off"><option value="10" selected="selected">10</option><option value="20">20</option><option value="30">30</option><option value="50">50</option></select><a id="consultaServicio:tabMod:j_idt341" href="#" class="ui-commandlink ui-widget" aria-label="Exportar a excel" onclick="PrimeFaces.addSubmitParam('consultaServicio',{'consultaServicio:tabMod:j_idt341':'consultaServicio:tabMod:j_idt341'}).submit('consultaServicio');return false;" style="float: right;" title="Exportar a excel"><img id="consultaServicio:tabMod:j_idt342" src="/cronos/faces/javax.faces.resource/images/excel.png" alt="" width="24" /></a></div></div>
+                    </h5>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group"><button id="consultaServicio:j_idt355" name="consultaServicio:j_idt355" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PF('cancelarDetSerW').show();;PrimeFaces.ab({s:&quot;consultaServicio:j_idt355&quot;,p:&quot;consultaServicio:j_idt355&quot;});return false;" title="Cierra la ventana actual" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-cancel"></span><span class="ui-button-text ui-c">Cancelar</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-1982045083771808668:-4362130062065524370" autocomplete="off" />
+</form></div>
+    </div>
+</div></div></div></div><div xmlns="http://www.w3.org/1999/xhtml"><div id="archivosDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container ui-draggable" role="dialog" aria-labelledby="archivosDialog_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span id="archivosDialog_title" class="ui-dialog-title">Administración de archivos</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">
+        
+        <div class="container"><div id="j_idt360" class="ui-scrollpanel ui-scrollpanel-native ui-widget ui-widget-content ui-corner-all" style="max-height:410px;overflow-x: hidden !important;">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="panel-body">
+<form id="formSubirArchivos" name="formSubirArchivos" method="post" action="/cronos/faces/servicios/crxCrearServicio.xhtml" class="form-horizontal" enctype="multipart/form-data">
+<input type="hidden" name="formSubirArchivos" value="formSubirArchivos" />
+<script type="text/javascript">actualizarArchivos = function() {PrimeFaces.ab({s:"formSubirArchivos:j_idt362",f:"formSubirArchivos",p:"formSubirArchivos:j_idt362",u:"formSubirArchivos:tipoArchivo formSubirArchivos:observacion formSubirArchivos:panelArchivo",pa:arguments[0]});}</script><span id="formSubirArchivos:growlArchivos"></span><div id="formSubirArchivos:panelArchivo" class="ui-panel ui-widget ui-widget-content ui-corner-all" style="border:none" data-widget="widget_formSubirArchivos_panelArchivo"><div id="formSubirArchivos:panelArchivo_content" class="ui-panel-content ui-widget-content">
+                                    <div class="form-group">
+                                        <div class="col-sm-2 ">
+                                        </div>
+                                        <div class="col-sm-10 ">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <div class="col-sm-2 ">Observación 
+                                        </div>
+                                        
+                                        <div class="col-sm-10 "><textarea id="formSubirArchivos:observacion" name="formSubirArchivos:observacion" cols="70" rows="3" maxlength="500" onchange="PrimeFaces.ab({s:&quot;formSubirArchivos:observacion&quot;,e:&quot;valueChange&quot;,f:&quot;formSubirArchivos&quot;,p:&quot;formSubirArchivos:observacion&quot;});" class="ui-inputfield ui-inputtextarea ui-widget ui-state-default ui-corner-all form-control" role="textbox" aria-disabled="false" aria-readonly="false" aria-multiline="true"></textarea>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group"><div id="formSubirArchivos:j_idt373" class="ui-fileupload ui-widget"><div class="ui-fileupload-buttonbar ui-widget-header ui-corner-top"><span class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left ui-fileupload-choose"><span class="ui-button-icon-left ui-icon ui-c ui-icon-plusthick"></span><span class="ui-button-text ui-c">Seleccionar</span><input type="file" id="formSubirArchivos:j_idt373_input" name="formSubirArchivos:j_idt373_input" /></span><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left ui-state-disabled ui-fileupload-upload" disabled="disabled" role="button" aria-disabled="true"><span class="ui-button-icon-left ui-icon ui-c ui-icon-arrowreturnthick-1-n"></span><span class="ui-button-text ui-c">Subir</span></button><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left ui-state-disabled ui-fileupload-cancel" disabled="disabled" role="button" aria-disabled="true"><span class="ui-button-icon-left ui-icon ui-c ui-icon-cancel"></span><span class="ui-button-text ui-c">Cancelar</span></button></div><div class="ui-fileupload-content ui-widget-content ui-corner-bottom"><div class="ui-messages ui-widget ui-helper-hidden"><div class="ui-messages-error ui-corner-all"><a class="ui-messages-close" href="#"><span class="ui-icon ui-icon-close"></span></a><span class="ui-messages-error-icon"></span><ul></ul></div></div><table class="ui-fileupload-files"><tbody></tbody></table></div></div>
+                                    </div></div></div>
+                                        
+                                <div class="form-group"><button id="formSubirArchivos:j_idt376" name="formSubirArchivos:j_idt376" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PrimeFaces.ab({s:&quot;formSubirArchivos:j_idt376&quot;,p:&quot;formSubirArchivos:j_idt376&quot;,u:&quot;historicoArchivosDialog&quot;,onco:function(xhr,status,args){PF('historicoArchivosDialog').show();}});return false;" style="margin-left:10px" title="Permite visualizar el histórico de los archivos almacenados" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-clock"></span><span class="ui-button-text ui-c">Histórico</span></button> 
+                                </div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-1982045083771808668:-4362130062065524370" autocomplete="off" />
+</form>
+<form id="formDatosArchivos" name="formDatosArchivos" method="post" action="/cronos/faces/servicios/crxCrearServicio.xhtml" enctype="application/x-www-form-urlencoded" target="_blank">
+<input type="hidden" name="formDatosArchivos" value="formDatosArchivos" />
+
+                                <h5><div id="formDatosArchivos:tablaArchivos" class="ui-datatable ui-widget ui-datatable-reflow"><div id="formDatosArchivos:tablaArchivos_paginator_top" class="ui-paginator ui-paginator-top ui-widget-header ui-corner-top" role="navigation"><span class="ui-paginator-current">0 Registros encontrados, página 1 de 1</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"></span><span class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-end">p</span></span><select id="formDatosArchivos:tablaArchivos_rppDD" class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="5" autocomplete="off"><option value="5" selected="selected">5</option><option value="10">10</option><option value="15">15</option><option value="20">20</option></select></div><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="formDatosArchivos:tablaArchivos_head"><tr role="row"><th id="formDatosArchivos:tablaArchivos:j_idt379" class="ui-state-default" role="columnheader" style="width:15%"><span class="ui-column-title">Opciones</span></th><th id="formDatosArchivos:tablaArchivos:j_idt385" class="ui-state-default ui-sortable-column" role="columnheader" style="width:12%" tabindex="0"><span class="ui-column-title">Tipo de archivo</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formDatosArchivos:tablaArchivos:j_idt387" class="ui-state-default" role="columnheader" style="width:10%"><span class="ui-column-title">Estado</span></th><th id="formDatosArchivos:tablaArchivos:j_idt392" class="ui-state-default ui-sortable-column" role="columnheader" style="width:30%" tabindex="0"><span class="ui-column-title">Nombre</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="formDatosArchivos:tablaArchivos:j_idt394" class="ui-state-default ui-sortable-column" role="columnheader" style="width:33%" tabindex="0"><span class="ui-column-title">Observación</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th></tr></thead><tbody id="formDatosArchivos:tablaArchivos_data" class="ui-datatable-data ui-widget-content"><tr class="ui-widget-content ui-datatable-empty-message"><td colspan="5"><span class="ui-column-title">Opciones</span>No se encontraron registros.</td></tr></tbody></table></div><div id="formDatosArchivos:tablaArchivos_paginator_bottom" class="ui-paginator ui-paginator-bottom ui-widget-header ui-corner-bottom" role="navigation"><span class="ui-paginator-current">0 Registros encontrados, página 1 de 1</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"></span><span class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-end">p</span></span><select id="formDatosArchivos:tablaArchivos_rppDD" class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="5" autocomplete="off"><option value="5" selected="selected">5</option><option value="10">10</option><option value="15">15</option><option value="20">20</option></select></div></div>
+                                </h5>
+                                <div align="left"><button id="formDatosArchivos:j_idt397" name="formDatosArchivos:j_idt397" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PF('cancelarArchivosW').show();;PrimeFaces.ab({s:&quot;formDatosArchivos:j_idt397&quot;,p:&quot;formDatosArchivos:j_idt397&quot;});return false;" title="Cierra la ventana actual" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-cancel"></span><span class="ui-button-text ui-c">Cancelar</span></button>
+                                </div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-1982045083771808668:-4362130062065524370" autocomplete="off" />
+</form>
+                        </div>
+                    </div>
+                </div></div>
+        </div></div></div><div id="historicoArchivosDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container ui-draggable" role="dialog" aria-labelledby="historicoArchivosDialog_title" aria-hidden="true" style="width: 76%; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span id="historicoArchivosDialog_title" class="ui-dialog-title">Histórico de archivos</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><div id="j_idt402" class="ui-scrollpanel ui-scrollpanel-native ui-widget ui-widget-content ui-corner-all" style="max-height:410px;overflow-x: hidden !important;">
+            <h5><div id="j_idt404" class="ui-datatable ui-widget ui-datatable-reflow"><div id="j_idt404_paginator_top" class="ui-paginator ui-paginator-top ui-widget-header ui-corner-top" role="navigation"><span class="ui-paginator-current">0 Registros encontrados, página 1 de 1</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"></span><span class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-end">p</span></span><select id="j_idt404_rppDD" class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="5" autocomplete="off"><option value="5" selected="selected">5</option><option value="10">10</option><option value="15">15</option><option value="50">50</option></select></div><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="j_idt404_head"><tr role="row"><th id="j_idt404:j_idt405" class="ui-state-default ui-sortable-column" role="columnheader" style="width:14%" tabindex="0"><span class="ui-column-title">Fecha</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="j_idt404:j_idt407" class="ui-state-default ui-sortable-column" role="columnheader" style="width:22%" tabindex="0"><span class="ui-column-title">Usuario</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="j_idt404:j_idt409" class="ui-state-default ui-sortable-column" role="columnheader" style="width:20%" tabindex="0"><span class="ui-column-title">Acción</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="j_idt404:j_idt411" class="ui-state-default ui-sortable-column" role="columnheader" style="width:45%" tabindex="0"><span class="ui-column-title">Observación</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th></tr></thead><tbody id="j_idt404_data" class="ui-datatable-data ui-widget-content"><tr class="ui-widget-content ui-datatable-empty-message"><td colspan="4"><span class="ui-column-title">Fecha</span>No se encontraron registros.</td></tr></tbody></table></div><div id="j_idt404_paginator_bottom" class="ui-paginator ui-paginator-bottom ui-widget-header ui-corner-bottom" role="navigation"><span class="ui-paginator-current">0 Registros encontrados, página 1 de 1</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"></span><span class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-end">p</span></span><select id="j_idt404_rppDD" class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="5" autocomplete="off"><option value="5" selected="selected">5</option><option value="10">10</option><option value="15">15</option><option value="50">50</option></select></div></div>
+           </h5></div>
+        <br />
+<form id="j_idt415" name="j_idt415" method="post" action="/cronos/faces/servicios/crxCrearServicio.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt415" value="j_idt415" />
+<button id="j_idt415:j_idt416" name="j_idt415:j_idt416" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PF('cancelarHistoricoW').show();;PrimeFaces.ab({s:&quot;j_idt415:j_idt416&quot;,p:&quot;j_idt415:j_idt416&quot;});return false;" title="Cierra la ventana actual" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-cancel"></span><span class="ui-button-text ui-c">Cancelar</span></button><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-1982045083771808668:-4362130062065524370" autocomplete="off" />
+</form></div></div>
+<form id="j_idt417" name="j_idt417" method="post" action="/cronos/faces/servicios/crxCrearServicio.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt417" value="j_idt417" />
+<div id="j_idt417:cancelarArchivos" class="ui-confirm-dialog ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="j_idt417:cancelarArchivos_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span class="ui-dialog-title">Cancelar</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><span class="ui-icon ui-icon-alert ui-confirm-dialog-severity"></span><span class="ui-confirm-dialog-message">¿Está seguro de cancelar la operación?</span></div><div class="ui-dialog-buttonpane ui-dialog-footer ui-widget-content ui-helper-clearfix"><button id="j_idt417:j_idt418" name="j_idt417:j_idt418" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PF('cancelarArchivosW').hide();PF('archivosDialog').hide();;PrimeFaces.ab({s:&quot;j_idt417:j_idt418&quot;,p:&quot;j_idt417:j_idt418&quot;});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-text ui-c">Sí</span></button><button id="j_idt417:j_idt419" name="j_idt417:j_idt419" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PF('cancelarArchivosW').hide();;" type="button" role="button" aria-disabled="false"><span class="ui-button-text ui-c">No</span></button></div></div><div id="j_idt417:cancelarHistorico" class="ui-confirm-dialog ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="j_idt417:cancelarHistorico_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span class="ui-dialog-title">Cancelar</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><span class="ui-icon ui-icon-alert ui-confirm-dialog-severity"></span><span class="ui-confirm-dialog-message">¿Está seguro de cancelar la operación?</span></div><div class="ui-dialog-buttonpane ui-dialog-footer ui-widget-content ui-helper-clearfix"><button id="j_idt417:j_idt420" name="j_idt417:j_idt420" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PF('cancelarHistoricoW').hide();PF('historicoArchivosDialog').hide();;PrimeFaces.ab({s:&quot;j_idt417:j_idt420&quot;,p:&quot;j_idt417:j_idt420&quot;});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-text ui-c">Sí</span></button><button id="j_idt417:j_idt421" name="j_idt417:j_idt421" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PF('cancelarHistoricoW').hide();;" type="button" role="button" aria-disabled="false"><span class="ui-button-text ui-c">No</span></button></div></div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-1982045083771808668:-4362130062065524370" autocomplete="off" />
+</form>
+</div><div xmlns="http://www.w3.org/1999/xhtml"><div id="detErroresDialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container ui-draggable" role="dialog" aria-labelledby="detErroresDialog_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span id="detErroresDialog_title" class="ui-dialog-title">Detalle de errores</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><div id="j_idt427" class="ui-scrollpanel ui-scrollpanel-native ui-widget ui-widget-content ui-corner-all paginaScroll" style="max-height:490px;overflow-x: hidden !important;"><div id="j_idt428" class="ui-messages ui-widget" aria-live="polite"></div>
+<form id="detalleErroresForm" name="detalleErroresForm" method="post" action="/cronos/faces/servicios/crxCrearServicio.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="detalleErroresForm" value="detalleErroresForm" />
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="panel-body">
+                                <div class="form-group">
+                                    <h5><div id="detalleErroresForm:regsErrores" class="ui-datatable ui-widget"><div id="detalleErroresForm:regsErrores_paginator_top" class="ui-paginator ui-paginator-top ui-widget-header ui-corner-top" role="navigation"><span class="ui-paginator-current">0 Registros encontrados, página 1 de 1</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"></span><span class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-end">p</span></span><select id="detalleErroresForm:regsErrores_rppDD" class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="10" autocomplete="off"><option value="10" selected="selected">10</option><option value="20">20</option><option value="30">30</option><option value="50">50</option></select></div><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="detalleErroresForm:regsErrores_head"><tr role="row"><th id="detalleErroresForm:regsErrores:j_idt430" class="ui-state-default ui-sortable-column" role="columnheader" style="width:100px;" tabindex="0"><span class="ui-column-title">Registro</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="detalleErroresForm:regsErrores:j_idt432" class="ui-state-default ui-sortable-column" role="columnheader" style="width:150px;" tabindex="0"><span class="ui-column-title">Centro de costos</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="detalleErroresForm:regsErrores:j_idt434" class="ui-state-default ui-sortable-column" role="columnheader" style="width:150px;" tabindex="0"><span class="ui-column-title">Cuenta contable</span><span class="ui-sortable-column-icon ui-icon ui-icon-carat-2-n-s"></span></th><th id="detalleErroresForm:regsErrores:j_idt436" class="ui-state-default" role="columnheader" style="width:120px;"><span class="ui-column-title">Valor</span></th><th id="detalleErroresForm:regsErrores:j_idt438" class="ui-state-default" role="columnheader" style="width:300px;"><span class="ui-column-title">Errores</span></th></tr></thead><tbody id="detalleErroresForm:regsErrores_data" class="ui-datatable-data ui-widget-content"><tr class="ui-widget-content ui-datatable-empty-message"><td colspan="5">No se encontraron registros.</td></tr></tbody></table></div><div id="detalleErroresForm:regsErrores_paginator_bottom" class="ui-paginator ui-paginator-bottom ui-widget-header ui-corner-bottom" role="navigation"><span class="ui-paginator-current">0 Registros encontrados, página 1 de 1</span> <span class="ui-paginator-first ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-first">p</span></span><span class="ui-paginator-prev ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-prev">p</span></span><span class="ui-paginator-pages"></span><span class="ui-paginator-next ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-next">p</span></span><span class="ui-paginator-last ui-state-default ui-corner-all ui-state-disabled"><span class="ui-icon ui-icon-seek-end">p</span></span><select id="detalleErroresForm:regsErrores_rppDD" class="ui-paginator-rpp-options ui-widget ui-state-default ui-corner-left" value="10" autocomplete="off"><option value="10" selected="selected">10</option><option value="20">20</option><option value="30">30</option><option value="50">50</option></select></div></div>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><button id="detalleErroresForm:j_idt441" name="detalleErroresForm:j_idt441" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left" onclick="PF('cancelarDetErrW').show();;PrimeFaces.ab({s:&quot;detalleErroresForm:j_idt441&quot;,p:&quot;detalleErroresForm:j_idt441&quot;});return false;" title="Cierra la ventana actual" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-cancel"></span><span class="ui-button-text ui-c">Cancelar</span></button><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-1982045083771808668:-4362130062065524370" autocomplete="off" />
+</form></div></div></div>
+</div>
+</div>
+            </div>
+        </div>
+        
+        
+        
+        <a href="#cabezote" class="center" title="Ir arriba">
+          <div class="linkTop visible-xs">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+          </div>
+        </a>
+    </div>
+    <footer id="footer" class="FooterContainer">
+        <div class="container">
+            <div class="row">
+            <div class="Footer-contact col-xs-12 col-sm-12 col-md-12" align="center !important">
+            <center>
+                Los campos marcados con * son obligatorios<br />
+                Se recomienda utilizar Internet Explorer 9.0 o superior, Chrome, Firefox.
+            </center>
+            </div>
+            </div>
+            <br />
+            <div class="row">
+            <div class="Footer-col1 col-xs-12 col-sm-6 col-md-4">
+                    <figure class="Footer-logoContainer">
+                            <a class="Footer-logoLink" href="#"><img src="/cronos/faces/javax.faces.resource/logo_footer.png?ln=images" alt="Universidad EAFIT" class="Footer-logoImage" />
+                            </a>
+                    </figure>
+                    <div class="Footer-phone">
+                            <span class="glyphicon glyphicon-earphone Footer-phoneIcon"></span> 01 8000 515 900
+                    </div>
+            </div>
+            <address class="Footer-contact col-xs-12 col-sm-6 col-md-8">
+                Universidad EAFIT, Carrera 49 N° 7 Sur-50, Medellín - Colombia  Medellín: (57)(4) 4489500 - Conmutador: (57)(4) 2619500<br />
+                Otras sedes: <a class="Footer-link" href="http://www.eafit.edu.co/bogota">EAFIT Bogotá</a> | <a class="Footer-link" href="http://www.eafit.edu.co/pereira">EAFIT Pereira</a> | <a class="Footer-link" href="http://www.eafit.edu.co/llanogrande">EAFIT Llanogrande</a><br />
+                Copyright 2014 |  <a class="Footer-link" href="http://www.eafit.edu.co/institucional/reglamentos/tratamiento-proteccion-datos-personales">Política de protección de datos personales</a> | <a class="Footer-link" href="http://www.eafit.edu.co/institucional/contacto">Contáctenos</a>  
+            </address>
+    </div>
+    </div>
+    </footer><script type="text/javascript" src="/cronos/faces/javax.faces.resource/bootstrap.min.js?ln=js"></script>
+
+<div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div><div class="ui-dialog-docking-zone"></div><div id="formServicio:j_idt99_container" class="ui-growl ui-widget" style="z-index: 1009;"></div><div id="formServicio:servicio_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow" style="visibility: visible; width: 531px; z-index: 1005; top: 494.406px; left: 501.391px; display: none; height: auto;"><table class="ui-autocomplete-items ui-autocomplete-table ui-widget-content ui-widget ui-corner-all ui-helper-reset"><tbody><tr class="ui-autocomplete-item ui-autocomplete-row ui-widget-content ui-corner-all ui-state-highlight" data-item-value="3109" data-item-label="3109 MONTACARGAS Y GRUAS" role="option"><td style="max-width: 550px">(ARRENDAMIENTOS) - 3109 MONTACARGAS Y GRUAS - (COTIZABLE)</td></tr><tr class="ui-autocomplete-item ui-autocomplete-row ui-widget-content ui-corner-all" data-item-value="3231" data-item-label="3231 RECARGA DE MINUTOS" role="option"><td style="max-width: 550px">(SERVICIOS PUBLICOS) - 3231 RECARGA DE MINUTOS - (COTIZABLE)</td></tr><tr class="ui-autocomplete-item ui-autocomplete-row ui-widget-content ui-corner-all" data-item-value="3077" data-item-label="3077 RECARGA  DE TONER Y EXTINTORES" role="option"><td style="max-width: 550px">(LOGISTICA) - 3077 RECARGA  DE TONER Y EXTINTORES - (COTIZABLE)</td></tr></tbody></table></div><div id="formServicio:toolTipValorServicio" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all" style="max-width: 340px;white-space:pre-wrap;">Este valor presupuestado incluye impuestos</div><div id="formServicio:j_idt185" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all" style="max-width: 340px;white-space:pre-wrap;">Señor usuario por favor valide que la ubicación física coincida con la ubicación de su puesto de trabajo, de no ser así proceda a la actualización.</div><div id="formServicio:j_idt187_panel" class="ui-selectonemenu-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow" style=""><div class="ui-selectonemenu-filter-container"><input class="ui-selectonemenu-filter ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" id="formServicio:j_idt187_filter" name="formServicio:j_idt187_filter" type="text" autocomplete="off" role="textbox" aria-disabled="false" aria-readonly="false" /><span class="ui-icon ui-icon-search"></span></div><div class="ui-selectonemenu-items-wrapper" style="height:200px"><ul class="ui-selectonemenu-items ui-selectonemenu-list ui-widget-content ui-widget ui-corner-all ui-helper-reset"><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Seleccione">Seleccione</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 13 PISO 1">B 13 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 13 PISO 2">B 13 PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 13 PISO 3">B 13 PISO 3</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 13 PISO 4">B 13 PISO 4</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 14 PISO 1">B 14 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 14 PISO 2">B 14 PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 14 PISO 3">B 14 PISO 3</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 14 PISO 4">B 14 PISO 4</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 15 PISO 1">B 15 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 15 PISO 2">B 15 PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 16 PISO 1">B 16 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 17 PISO 1">B 17 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 18 PISO 2">B 18 PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 18 PISO 3">B 18 PISO 3</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 18 PISO 4">B 18 PISO 4</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 18 PISO 5">B 18 PISO 5</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 18 PISO 6">B 18 PISO 6</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 18 PISO 7">B 18 PISO 7</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 18 PISO 8">B 18 PISO 8</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 19 MEZANINE">B 19 MEZANINE</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 19 PISO 1">B 19 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 19 PISO 2">B 19 PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 19 PISO 3">B 19 PISO 3</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 19 PISO 4">B 19 PISO 4</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 19 PISO 5">B 19 PISO 5</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 19 PISO 6">B 19 PISO 6</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 19 PISO 7">B 19 PISO 7</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 19 PISO 8">B 19 PISO 8</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 19 SOTANO">B 19 SOTANO</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 20 PISO 1">B 20 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 21 PISO 1">B 21 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 21 PISO 2">B 21 PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 21 PISO 3">B 21 PISO 3</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 22 PISO 1">B 22 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 23 PISO 1">B 23 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 26 PISO 1">B 26 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 26 PISO 2">B 26 PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 26 PISO 3">B 26 PISO 3</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 26 PISO 4">B 26 PISO 4</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 26 PISO 5">B 26 PISO 5</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 26 PISO 6">B 26 PISO 6</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 26 PISO 7">B 26 PISO 7</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 26 PISO 8">B 26 PISO 8</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 27 PISO 1">B 27 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 27 PISO 4">B 27 PISO 4</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 27 PISO 5">B 27 PISO 5</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 29 PISO 1">B 29 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 29 PISO 3">B 29 PISO 3</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 29 PISO 4">B 29 PISO 4</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 29 PISO 5">B 29 PISO 5</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 3 PISO 1">B 3 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 3 PISO 2">B 3 PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 3 PISO 3">B 3 PISO 3</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 30 PISO 1">B 30 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 30 PISO 2">B 30 PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 32 PISO 1">B 32 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 32 PISO 2">B 32 PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 32 PISO 3">B 32 PISO 3</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 32 PISO 4">B 32 PISO 4</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 38 PISO 1">B 38 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 38 PISO 2">B 38 PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 38 PISO 3">B 38 PISO 3</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 38 PISO 4">B 38 PISO 4</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 38 PISO 5">B 38 PISO 5</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="B 7 PISO 1">B 7 PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all ui-state-highlight" data-label="B 7 PISO 2">B 7 PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Bloque 1 G idiomas ">Bloque 1 G idiomas </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Bloque 1 G idiomas ">Bloque 1 G idiomas </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Bloque 1 G idiomas ">Bloque 1 G idiomas </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Bloque 1 G idiomas PISO 1">Bloque 1 G idiomas PISO 1</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Bloque 1 G idiomas PISO 2">Bloque 1 G idiomas PISO 2</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Bloque 1 G idiomas PISO 3">Bloque 1 G idiomas PISO 3</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Bloque 1 G idiomas PISO 4">Bloque 1 G idiomas PISO 4</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Bloque 1 G idiomas PISO 5">Bloque 1 G idiomas PISO 5</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="CASA 1 ATENEA  ">CASA 1 ATENEA  </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="CASA 10">CASA 10</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="CASA 2 Postgrados y Doctorados ">CASA 2 Postgrados y Doctorados </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="CASA 3 Desarrollo Artistico ">CASA 3 Desarrollo Artistico </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="CASA 4 Consultorio Juridico ">CASA 4 Consultorio Juridico </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="CASA 5 Instituto Confucio ">CASA 5 Instituto Confucio </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="CASA 6 INNOVACION ">CASA 6 INNOVACION </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="CASA 7 URBAM ">CASA 7 URBAM </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="CASA 8 Centro de Egresados/ Corporacion Amigos Eafit ">CASA 8 Centro de Egresados/ Corporacion Amigos Eafit </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="CASA 9 UNIV DE LOS NIÑOS">CASA 9 UNIV DE LOS NIÑOS</li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Idiomas Colegio San Carlos ">Idiomas Colegio San Carlos </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Idiomas Colegio San Jose ">Idiomas Colegio San Jose </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Idiomas Laureles ">Idiomas Laureles </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Idiomas Los Balsos ">Idiomas Los Balsos </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Sede Bogota ">Sede Bogota </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Sede Llanogrande ">Sede Llanogrande </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Sede Mayorca ">Sede Mayorca </li><li class="ui-selectonemenu-item ui-selectonemenu-list-item ui-corner-all" data-label="Sede Pereira ">Sede Pereira </li></ul></div></div><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div><div id="j_idt243" class="ui-confirm-dialog ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="j_idt243_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><span class="ui-icon ui-confirm-dialog-severity"></span><span class="ui-confirm-dialog-message"></span></div><div class="ui-dialog-buttonpane ui-dialog-footer ui-widget-content ui-helper-clearfix"><button id="j_idt244" name="j_idt244" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left ui-confirmdialog-yes" type="button" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-check"></span><span class="ui-button-text ui-c">Sí</span></button><button id="j_idt245" name="j_idt245" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left ui-confirmdialog-no" type="button" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-close"></span><span class="ui-button-text ui-c">No</span></button></div></div><div id="consultaServicio:ayudaServiciot" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all" style="max-width: 420px;white-space:pre-wrap;"></div><div id="consultaServicio:toolTipValorServicio" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all" style="max-width: 340px;white-space:pre-wrap;">Este valor presupuestado incluye impuestos</div><div id="consultaServicio:j_idt294" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all" style="max-width: 340px;white-space:pre-wrap;">Señor usuario por favor valide que la ubicación física coincida con la ubicación de su puesto de trabajo, de no ser así proceda a la actualización.</div><div id="consultaServicio:j_idt317" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all" style="max-width: 340px;white-space:pre-wrap;">Si los datos de contacto del proveedor están desactualizados, deberá enviar un correo electrónico al área de contratación de servicios con la información actualizada</div><div id="formSubirArchivos:growlArchivos_container" class="ui-growl ui-widget" style="z-index: 1002;"></div><div id="j_idt417:j_idt422" class="ui-confirm-dialog ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="j_idt417:j_idt422_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;"><span class="ui-icon ui-confirm-dialog-severity"></span><span class="ui-confirm-dialog-message"></span></div><div class="ui-dialog-buttonpane ui-dialog-footer ui-widget-content ui-helper-clearfix"><button id="j_idt417:j_idt423" name="j_idt417:j_idt423" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left ui-confirmdialog-yes" type="button" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-check"></span><span class="ui-button-text ui-c">Sí</span></button><button id="j_idt417:j_idt424" name="j_idt417:j_idt424" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left ui-confirmdialog-no" type="button" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c ui-icon-close"></span><span class="ui-button-text ui-c">No</span></button></div></div><div id="formServicio:ayudaServiciot" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all" style="max-width: 420px;white-space:pre-wrap;"></div><div id="formServicio:centroCostos_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow" style="visibility: visible; height: auto; width: 320px; z-index: 1010; top: 695.406px; left: 501.391px; display: block;"><table class="ui-autocomplete-items ui-autocomplete-table ui-widget-content ui-widget ui-corner-all ui-helper-reset"><tbody><tr class="ui-autocomplete-item ui-autocomplete-row ui-widget-content ui-corner-all ui-state-highlight" data-item-value="150115" data-item-label="150115 DIRECCIÓN DE INFORMÁTICA" role="option"><td>150115 - DIRECCIÓN DE INFORMÁTICA</td></tr><tr class="ui-autocomplete-item ui-autocomplete-row ui-widget-content ui-corner-all" data-item-value="1501151" data-item-label="1501151 DINF-RECURSOS DISTRIBUIBLES" role="option"><td>1501151 - DINF-RECURSOS DISTRIBUIBLES</td></tr></tbody></table></div><div id="formServicio:j_idt179" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all" style="max-width: 340px;white-space:pre-wrap;"></div><div id="formServicio:j_idt180" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all" style="max-width: 340px;white-space:pre-wrap;"></div><div id="formServicio:j_idt212" class="ui-tooltip ui-widget ui-widget-content ui-shadow ui-corner-all" style="max-width: 340px;white-space:pre-wrap;">Si los datos de contacto del proveedor están desactualizados, deberá enviar un correo electrónico al área de contratación de servicios con la información actualizada</div><div id="formServicio:proveedoresNit_panel" class="ui-autocomplete-panel ui-widget-content ui-corner-all ui-helper-hidden ui-shadow"></div></body></html>

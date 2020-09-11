@@ -1,0 +1,124 @@
+<!--?xml version="1.0" encoding="utf-8"?--><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html lang="es" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/theme.css?ln=primefaces-eafittheme" /><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/cronos.min.css;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=css" /><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/cronos.css;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=css" /><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/primefaces.css;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=primefaces&amp;v=5.2" /><script type="text/javascript" src="/cronos/faces/javax.faces.resource/jquery/jquery.js;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=primefaces&amp;v=5.2"></script><script type="text/javascript" src="/cronos/faces/javax.faces.resource/primefaces.js;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=primefaces&amp;v=5.2"></script><script type="text/javascript" src="/cronos/faces/javax.faces.resource/jquery/jquery-plugins.js;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=primefaces&amp;v=5.2"></script><link type="text/css" rel="stylesheet" href="/cronos/faces/javax.faces.resource/watermark/watermark.css;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=primefaces&amp;v=5.2" /><script type="text/javascript" src="/cronos/faces/javax.faces.resource/watermark/watermark.js;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=primefaces&amp;v=5.2"></script><script type="text/javascript">if(window.PrimeFaces){}</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta description="Sistema de gestión de datos" />
+    <meta name="author" content="Universidad EAFIT" />
+    <link rel="shortcut icon" type="image/x-icon" href="/cronos/faces/javax.faces.resource/images/favicon.ico" /><script type="text/javascript" src="/cronos/faces/javax.faces.resource/calendar_es.js;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=js"></script><script type="text/javascript" src="/cronos/faces/javax.faces.resource/generalCRONOS.js;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=js"></script>
+    
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css" />
+    <link href="//fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" type="text/css" />
+    <link href="//fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css" />
+    <title>CRONOS - Universidad EAFIT</title></head>
+<body style="">
+
+<header id="cabezote" class="Header container">
+    <div class="row col-xs-12">
+        <figure class="Header-logoContainer col-xs-12 col-sm-2">
+            <a class="Header-logoLink" href="http://www.eafit.edu.co" target="_blank">
+            <span class="Header-logoLink"><img src="/cronos/faces/javax.faces.resource/logo-universidad-eafit.png;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=images" alt="Universidad EAFIT" class="Header-logoImage" />
+            </span>
+            </a>
+        </figure>
+        <hr class="col-xs-12 visible-xs" />
+    </div>
+</header>
+<div id="aplicacion" class="AplicacionContainer">
+    <div class="container">
+        <div class="row">
+            
+            <h1 class="hidden-xs">
+                <a href="/cronos/faces/usuario/main.xhtml">CRONOS - Universidad EAFIT
+                    <small class="hidden-xs"></small>
+                </a>
+            </h1>
+            <div class="AplicacionMenu">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <div id="sistema" class="SistemaContainer">
+        <div class="container">
+
+
+<div class="mensajesWrapper" align="center" style="width:70%;margin:0px auto 0px auto;word-wrap: break-word;"><div id="messages" class="ui-messages ui-widget" aria-live="polite"></div>
+</div><div id="j_idt30"></div><div id="idDialogError" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="idDialogError_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="idDialogError_title" class="ui-dialog-title">Se ha presentado un inconveniente.</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">    
+    
+    <div class="alert alert-warning" role="alert">
+        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+        <span class="sr-only">Error:</span>Por favor actualice la página.<br />Si el problema persiste favor comuníquese con La Dirección de Informática.
+    </div>
+    
+    <button type="button" class="btn btn-default" onclick="document.location.href = document.location.href;">
+        <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>Actualizar
+    </button></div></div><div id="j_idt36" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="j_idt36_title" aria-hidden="false" aria-live="polite" style="width: auto; height: auto; left: 576px; top: 248px; z-index: 1001; display: block;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="j_idt36_title" class="ui-dialog-title">Procesando...</span></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">    
+    <div align="center"><img src="/cronos/faces/javax.faces.resource/loader.gif;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=images" alt="Cargando..." title="Cargando..." />
+    </div></div></div>
+<form id="j_idt40" name="j_idt40" method="post" action="/cronos/faces/login.xhtml;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179" class="form-horizontal formInscripcion" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt40" value="j_idt40" />
+
+            <input type="hidden" id="paginaRedireccionar" name="paginaRedireccionar" />
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-md-offset-3">
+                        <div class="panel panel-default"><div id="j_idt40:pnl" class="ui-outputpanel ui-widget" style="position: relative;">
+                                <div class="panel-body">
+                                    <h3>Ingresar al sistema</h3>
+                                       
+                                        <div class="form-group"><label for="j_idt40:inputUser" class="control-label col-sm-6">Nombre de usuario</label>
+                                        
+                                        <div class="col-sm-6"><input id="j_idt40:inputUser" type="text" name="j_idt40:inputUser" autocomplete="off" value="" class="form-control" placeholder="Usuario" />
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group"><label for="j_idt40:inputPass" class="control-label col-sm-6">Contraseña</label>
+                                        
+                                        <div class="col-sm-6"><input id="j_idt40:inputPass" type="password" name="j_idt40:inputPass" value="" class="form-control" placeholder="Contraseña" />
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-12 center"><button id="j_idt40:loginBtn" name="j_idt40:loginBtn" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn btn-default u-btn-verde botonLogin ui-state-focus" onclick="PrimeFaces.ab({s:&quot;j_idt40:loginBtn&quot;});return false;" style="height: 37px;" type="submit" role="button" aria-disabled="false"><span class="ui-button-text ui-c">Continuar</span></button>
+                                    </div>
+                                </div><div id="j_idt40:j_idt53_blocker" class="ui-blockui ui-widget-overlay ui-helper-hidden" style="z-index: 1002; display: block;"></div><div id="j_idt40:j_idt53" class="ui-blockui-content ui-widget ui-widget-content ui-corner-all ui-helper-hidden ui-shadow" style="left: 213px; top: 101.5px; z-index: 1003;"></div></div>
+                        </div>
+                    </div>
+                </div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-5227283597223576228:-856601681935952832" autocomplete="off" />
+</form>
+            <div class="center">
+                <label>Versión:
+                2020-08-14-WL
+                </label>
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="FooterContainer">
+        <div class="container">
+            <div class="row">
+            <div class="Footer-contact col-xs-12 col-sm-12 col-md-12" align="center !important">
+            <center>
+                Los campos marcados con * son obligatorios<br />
+                Se recomienda utilizar Internet Explorer 9.0 o superior, Chrome, Firefox.
+            </center>
+            </div>
+            </div>
+            <br />
+            <div class="row">
+            <div class="Footer-col1 col-xs-12 col-sm-6 col-md-4">
+                    <figure class="Footer-logoContainer">
+                            <a class="Footer-logoLink" href="#"><img src="/cronos/faces/javax.faces.resource/logo_footer.png;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=images" alt="Universidad EAFIT" class="Footer-logoImage" />
+                            </a>
+                    </figure>
+                    <div class="Footer-phone">
+                            <span class="glyphicon glyphicon-earphone Footer-phoneIcon"></span> 01 8000 515 900
+                    </div>
+            </div>
+            <address class="Footer-contact col-xs-12 col-sm-6 col-md-8">
+                Universidad EAFIT, Carrera 49 N° 7 Sur-50, Medellín - Colombia  Medellín: (57)(4) 4489500 - Conmutador: (57)(4) 2619500<br />
+                Otras sedes: <a class="Footer-link" href="http://www.eafit.edu.co/bogota">EAFIT Bogotá</a> | <a class="Footer-link" href="http://www.eafit.edu.co/pereira">EAFIT Pereira</a> | <a class="Footer-link" href="http://www.eafit.edu.co/llanogrande">EAFIT Llanogrande</a><br />
+                Copyright 2014 |  <a class="Footer-link" href="http://www.eafit.edu.co/institucional/reglamentos/tratamiento-proteccion-datos-personales">Política de protección de datos personales</a> | <a class="Footer-link" href="http://www.eafit.edu.co/institucional/contacto">Contáctenos</a>  
+            </address>
+    </div>
+    </div>
+    </footer><script type="text/javascript" src="/cronos/faces/javax.faces.resource/bootstrap.min.js;jsessionid=ya1ziS-KM8CQJJphcmQrW_YUYjfVw3qvb-47trGCnpuMMROXNmEX!-1450147179?ln=js"></script>
+
+<div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div><div class="ui-dialog-docking-zone"></div><div id="j_idt36_modal" class="ui-widget-overlay" style="width: 1349px; height: 797px; z-index: 1000;"></div></body></html>

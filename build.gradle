@@ -9,9 +9,9 @@ buildscript {
         jcenter()
     }
     dependencies {
-        //classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.39")
-        classpath "net.serenity-bdd:serenity-gradle-plugin:2.1.4"
-        classpath "net.serenity-bdd:serenity-single-page-report:2.1.4"
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.9.9")
+     // classpath "net.serenity-bdd:serenity-gradle-plugin:2.1.4"
+   //     classpath "net.serenity-bdd:serenity-single-page-report:2.1.4"
       
     }
 }
@@ -37,23 +37,24 @@ test {
 }
 
 dependencies {
-    testCompile 'net.serenity-bdd:serenity-core:2.0.39'
-    testCompile 'net.serenity-bdd:serenity-junit:2.0.39'
-    
+    testCompile 'net.serenity-bdd:serenity-core:1.9.9'                  
+    testCompile 'net.serenity-bdd:serenity-junit:1.9.9'                
     testCompile('junit:junit:4.12')
     testCompile('org.assertj:assertj-core:1.7.0')
-    testCompile('org.slf4j:slf4j-simple:1.7.25')
-
-    compile 'net.serenity-bdd:serenity-core:2.0.39'
-    compile 'net.serenity-bdd:serenity-junit:2.0.39'
-    compile 'net.serenity-bdd:serenity-cucumber:1.9.30'
+    testCompile('org.slf4j:slf4j-simple:1.7.7')
+    
+    compile 'net.serenity-bdd:serenity-core:1.9.9'
+    compile 'net.serenity-bdd:serenity-junit:1.9.9'
+    compile 'net.serenity-bdd:serenity-cucumber:1.9.5'
+	//compile 'net.serenity-bdd:serenity-cucumber6:2.3.2'
     
    
     
 
 }
-serenity {
-    reports = ["single-page-html"]
-}
+//
+//serenity {
+   // reports = ["single-page-html"]
+//}
 //serenity.console.colors = true
 gradle.startParameter.continueOnFailure = false

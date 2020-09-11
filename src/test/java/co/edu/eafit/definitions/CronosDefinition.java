@@ -3,8 +3,6 @@ package co.edu.eafit.definitions;
 import java.text.ParseException;
 
 import co.edu.eafit.Steps.CronosSteps;
-
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

@@ -207,14 +207,13 @@ public class MercurioPageO  extends PageObject {
 		}
 		
 		int filas = Serenity.getWebdriverManager().getCurrentDriver().findElements(By.xpath("//*[@class='ui-datepicker-calendar']/tbody/tr")).size();
-		int columnas = Serenity.getWebdriverManager().getCurrentDriver().findElements(By.xpath("//*[@class='ui-datepicker-calendar']/tbody/tr/td")).size() ;
-		System.out.print("filas" + filas + "Columnas" + columnas);
+		//int columnas = Serenity.getWebdriverManager().getCurrentDriver().findElements(By.xpath("//*[@class='ui-datepicker-calendar']/tbody/tr/td")).size() ;
+
 			for (int h = 1; h <= filas; h++) 
 					{
 					for (int k = 1; k <= filas; k++) 
 						{
 						String diaformat = Serenity.getWebdriverManager().getCurrentDriver().findElement(By.xpath("//*[@class='ui-datepicker-calendar']/tbody/tr[" + h + "]/td[" + k + "]")).getText();
-						System.out.print("dia format" + diaformat);
 						if (diaformat.contentEquals(Dias)) 
 					{
 					//Si son iguales los selecciona
@@ -334,7 +333,6 @@ public class MercurioPageO  extends PageObject {
 	public boolean validainfocliente() {
 		btnbusclie.click();
 		String nombrep=nombre.getValue();
-		//System.out.print("nombre" + nombrep);
 		if( nombrep.isEmpty())
 			
 		{return false;}	
@@ -372,9 +370,9 @@ public class MercurioPageO  extends PageObject {
 		String Tipdocu= lsttipcl.getValue();
 		if( Tipdocu.equals("TI") || Tipdocu.equals("RE") )
 		{	Serenity.getWebdriverManager().getCurrentDriver().findElement(By.xpath("//*[@id=\"detalleBasicos\"]/table/tbody/tr[21]/td[2]/input")).sendKeys("123455");
-		System.out.print("tipo doc entro:" + Tipdocu);
+		//System.out.print("tipo doc entro:" + Tipdocu);
 		}
-		System.out.print("tipo doc:" + Tipdocu);
+		//System.out.print("tipo doc:" + Tipdocu);
 		btnguardarfrm.click();
 		
 		

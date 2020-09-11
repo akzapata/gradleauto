@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MERCURIO -&gt; Desacoplamiento" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-09-11T19:10:54" hostname="PTOF67355" time="82.489">
+  <properties/>
+  <testcase name="Menu carnetizacion / Opcion Gestion Carnes" classname="MERCURIO -&gt; Desacoplamiento" time="35.669"/>
+  <testcase name="Menu Clientes / Opcion Datos basicos clientes" classname="MERCURIO -&gt; Desacoplamiento" time="46.814"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[sep 11, 2020 2:10:55 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90) on port 12143
+Only local connections are allowed.
+sep 11, 2020 2:10:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Menu carnetizacion / Opcion Gestion Carnes
+----------------------------------------------------------------------------
+sep 11, 2020 2:11:30 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+sep 11, 2020 2:11:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Menu Clientes / Opcion Datos basicos clientes
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
